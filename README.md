@@ -19,9 +19,11 @@ Part 2 elaborates on factors namely Physical Health, Education, Income, Marital 
 Results: -Obese Women have approx 14% more number of days with mental health problems when compared to men.
          -Overweight women have approx 10.15% more number of days with mental health problems when compared to men.
          
-![](Images/github-smallMale.png)
-
+### Male Stats                 
 ![](Images/Male.png)
+
+### Female Stats
+![](Images/Female.png)
 
 
 
