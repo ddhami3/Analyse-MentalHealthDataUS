@@ -15,9 +15,10 @@ Part 2 elaborates on factors namely Physical Health, Education, Income, Marital 
 -Multivariate Analysis
 -Logistic Regression Models
 
-
-
-
+## Part1 :
+Results: -Obese Women have approx 14% more number of days with mental health problems when compared to men.
+         -Overweight women have approx 10.15% more number of days with mental health problems when compared to men.
+![](images/Male.png)
 
 
 
