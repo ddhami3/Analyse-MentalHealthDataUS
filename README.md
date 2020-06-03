@@ -25,10 +25,13 @@ Results: -Obese Women have approx 14% more number of days with mental health pro
 ###                        Female Stats
 ![](Images/Female.png)
 
-###                        ROC Curve: Mental Health vs BMI, Gender
-![](Images/BMIGender.png)
+###                       Logistic Regression1: ROC Curve: Factors- BMI, Gender
+![](Images/ROC(BMI%20Gender).png)
 
+###                       Logistic Regression2: ROC Curve: Factors- BMI, Gender, Income, Education, MaritalStatus, Age, Physical Health
+![](Images/ROC(allvariables).png)
 
+### Result: Respondants who are have higher BMI, have lower income, are either divorced or single and who do not exercise are likely to have more days with mental health issues.
 
 
 
