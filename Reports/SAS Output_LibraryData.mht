@@ -1,0 +1,2825 @@
+From: "Saved by Internet Explorer 11"
+Subject: SAS Output
+Date: Wed, 3 Jun 2020 13:56:22 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\dhruv\AppData\Local\Temp\SAS Temporary Files\_TD21980_DESKTOP-JG666T8_\sashtml.htm
+X-MimeOLE: Produced By Microsoft MimeOLE
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+<TITLE>SAS Output</TITLE>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001">
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-type>
+<STYLE type=3Dtext/css>.accessiblecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.activelink {
+	COLOR: #800080
+}
+.aftercaption {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; PADDING-TOP: 4pt; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.batch {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: 'SAS =
+Monospace', 'Courier New', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; PADDING-BOTTOM: 7px; FONT-STYLE: =
+normal; PADDING-TOP: 7px; PADDING-LEFT: 7px; BORDER-SPACING: 1px; =
+BORDER-LEFT: #c1c1c1 1px solid; PADDING-RIGHT: 7px; BACKGROUND-COLOR: =
+#fafbfe
+}
+.beforecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: =
+0px; BACKGROUND-COLOR: #fafbfe
+}
+.body {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: =
+8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.bodydate {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; =
+BACKGROUND-COLOR: #fafbfe
+}
+.bycontentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.byline {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: =
+0px; BACKGROUND-COLOR: #fafbfe
+}
+.bylinecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: =
+100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 =
+0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.caption {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: =
+0px; BACKGROUND-COLOR: #fafbfe
+}
+.cell {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.container {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.contentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.contentitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.contentproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.contentprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.contents {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; =
+MARGIN-RIGHT: 8px
+}
+.contentsdate {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.contenttitle {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: =
+#fafbfe
+}
+.continued {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.data {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+italic; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataempty {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datafixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: =
+#c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: =
+#c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrong {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.datastrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.date {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.document {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #800080
+}
+A:active {
+	COLOR: #800080
+}
+.errorbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.errorcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.errorcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.extendedpage {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 1pt solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 1pt solid; =
+BORDER-BOTTOM: #000000 1pt solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; TEXT-ALIGN: center; BORDER-LEFT: #000000 1pt solid; =
+BACKGROUND-COLOR: #fafbfe
+}
+.fatalbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.fatalcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.folderaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.footer {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.footeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.footeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.footerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.footerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: =
+#b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.footerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.frame {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.graph {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.header {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.headeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#d8dbd3
+}
+.headeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#d8dbd3
+}
+.headerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.headerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: =
+#b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headersandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#edf2f9
+}
+.headerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#d8dbd3
+}
+.headerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#d8dbd3
+}
+.heading1 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading2 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading3 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading4 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading5 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading6 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.index {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.indexaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.indexitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.indexprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.indextitle {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: =
+#fafbfe
+}
+.layoutcontainer {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: =
+#000000 0px solid
+}
+.layoutregion {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: =
+#000000 0px solid
+}
+.linecontent {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: =
+#fafbfe
+}
+.link {
+	COLOR: #0000ff
+}
+.list {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; BACKGROUND-COLOR: #fafbfe
+}
+.list10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.note {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.notebanner {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.notecontent {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.notecontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.output {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.pageno {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+VERTICAL-ALIGN: top; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: =
+normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; BACKGROUND-COLOR: =
+#fafbfe
+}
+.pages {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; =
+MARGIN-RIGHT: 8px
+}
+.pagesdate {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.pagesitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.pagesproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.pagesprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.pagestitle {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: =
+#fafbfe
+}
+.paragraph {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.parskip {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-SPACING: 0px; BORDER-LEFT: #000000 0px solid
+}
+.prepage {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; TEXT-ALIGN: =
+left; BACKGROUND-COLOR: #fafbfe
+}
+.proctitle {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.proctitlefixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier, monospace; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.rowfooter {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowfooteremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowfooteremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowfooterempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowfooterfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: =
+#b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowfooterstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowheader {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowheaderemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowheaderemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowheaderempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowheaderfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: =
+#b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowheaderstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.systemfooter {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter10 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter2 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter3 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter4 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter5 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter6 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter7 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter8 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter9 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle10 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle2 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle3 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle4 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle5 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle6 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle7 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle8 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systemtitle9 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.systitleandfootercontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: =
+100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 =
+0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.table {
+	BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 0px solid; =
+BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #c1c1c1 0px solid; =
+BORDER-SPACING: 0px; BORDER-LEFT: #c1c1c1 1px solid
+}
+.top_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: =
+1px; BORDER-LEFT: 0px
+}
+.middle_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: =
+1px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.bottom_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-TOP: =
+1px; BORDER-LEFT: 0px
+}
+.titleandnotecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: =
+100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 =
+0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.titlesandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.usertext {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.visitedlink {
+	COLOR: #800080
+}
+.warnbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.warncontent {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.warncontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.l {
+	TEXT-ALIGN: left
+}
+.c {
+	TEXT-ALIGN: center
+}
+.r {
+	TEXT-ALIGN: right
+}
+.d {
+	TEXT-ALIGN: right
+}
+.j {
+	TEXT-ALIGN: justify
+}
+.t {
+	VERTICAL-ALIGN: top
+}
+.m {
+	VERTICAL-ALIGN: middle
+}
+.b {
+	VERTICAL-ALIGN: bottom
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TH {
+	VERTICAL-ALIGN: top
+}
+.stacked_cell {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px
+}
+</STYLE>
+
+<SCRIPT language=3Djavascript type=3Dtext/javascript>
+<!--=20
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY class=3Dbody onload=3Dstartup() onunload=3Dshutdown()>
+<SCRIPT language=3Djavascript type=3Dtext/javascript>
+<!--=20
+var _info =3D navigator.userAgent
+var _ie =3D (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 =3D _info.indexOf("x64") > 0
+
+//-->
+</SCRIPT>
+
+<DIV class=3Dbranch><A name=3DIDX></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">The SAS =
+System</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The CONTENTS Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#c1c1c1 cellSpacing=3D0 =
+cellPadding=3D5 rules=3Dall=20
+summary=3D"Procedure Contents: Attributes" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set Name</TH>
+    <TD class=3D"l data">DATA.BRFSS_A</TD>
+    <TH class=3D"l rowheader" scope=3Drow>Observations</TH>
+    <TD class=3D"l data">437436</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Member Type</TH>
+    <TD class=3D"l data">DATA</TD>
+    <TH class=3D"l rowheader" scope=3Drow>Variables</TH>
+    <TD class=3D"l data">275</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Engine</TH>
+    <TD class=3D"l data">V9</TD>
+    <TH class=3D"l rowheader" scope=3Drow>Indexes</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Created</TH>
+    <TD class=3D"l data">06/03/2020 13:54:20</TD>
+    <TH class=3D"l rowheader" scope=3Drow>Observation Length</TH>
+    <TD class=3D"l data">2200</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Last Modified</TH>
+    <TD class=3D"l data">06/03/2020 13:54:20</TD>
+    <TH class=3D"l rowheader" scope=3Drow>Deleted Observations</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Protection</TH>
+    <TD class=3D"l data">&nbsp;</TD>
+    <TH class=3D"l rowheader" scope=3Drow>Compressed</TH>
+    <TD class=3D"l data">NO</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set Type</TH>
+    <TD class=3D"l data">&nbsp;</TD>
+    <TH class=3D"l rowheader" scope=3Drow>Sorted</TH>
+    <TD class=3D"l data">NO</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Label</TH>
+    <TD class=3D"l data">&nbsp;</TD>
+    <TH class=3D"l rowheader" scope=3Drow>&nbsp;</TH>
+    <TD class=3D"l data">&nbsp;</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Representation</TH>
+    <TD class=3D"l data">WINDOWS_64</TD>
+    <TH class=3D"l rowheader" scope=3Drow>&nbsp;</TH>
+    <TD class=3D"l data">&nbsp;</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Encoding</TH>
+    <TD class=3D"l data">wlatin1 Western (Windows)</TD>
+    <TH class=3D"l rowheader" scope=3Drow>&nbsp;</TH>
+    <TD class=3D"l =
+data">&nbsp;</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX1></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#c1c1c1 cellSpacing=3D0 =
+cellPadding=3D5 rules=3Dall=20
+summary=3D"Procedure Contents: Engine/Host Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Engine/Host =
+Dependent=20
+      Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set Page Size</TH>
+    <TD class=3D"l data">176128</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Data Set Pages</TH>
+    <TD class=3D"l data">5469</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>First Data Page</TH>
+    <TD class=3D"l data">1</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Max Obs per Page</TH>
+    <TD class=3D"l data">80</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Obs in First Data Page</TH>
+    <TD class=3D"l data">63</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Data Set =
+Repairs</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ExtendObsCounter</TH>
+    <TD class=3D"l data">YES</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Filename</TH>
+    <TD class=3D"l data">D:\Summer=20
+  Semester\HealthCare\Data\brfss_a.sas7bdat</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Release Created</TH>
+    <TD class=3D"l data">9.0401M6</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Host Created</TH>
+    <TD class=3D"l data">X64_10HOME</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Owner Name</TH>
+    <TD class=3D"l data">DESKTOP-JG666T8\dhruv</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>File Size</TH>
+    <TD class=3D"l data">919MB</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>File Size (bytes)</TH>
+    <TD class=3D"l =
+data">963420160</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX2></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#c1c1c1 cellSpacing=3D0 =
+cellPadding=3D5 rules=3Dall=20
+summary=3D"Procedure Contents: Variables" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D5 scope=3Dcolgroup>Alphabetic =
+List of=20
+      Variables and Attributes</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>#</TH>
+    <TH class=3D"l b header" scope=3Dcol>Variable</TH>
+    <TH class=3D"l b header" scope=3Dcol>Type</TH>
+    <TH class=3D"r b header" scope=3Dcol>Len</TH>
+    <TH class=3D"l b header" scope=3Dcol>Label</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>47</TH>
+    <TD class=3D"l data">ADDEPEV2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER TOLD YOU HAD A DEPRESSIVE =
+DISORDER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>157</TH>
+    <TD class=3D"l data">ADDOWN1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">FELT DOWN, DEPRESSED OR HOPELESS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>156</TH>
+    <TD class=3D"l data">ADPLEAS1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAD LITTLE PLEASURE DOING THINGS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>152</TH>
+    <TD class=3D"l data">ADSLEEP</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DAYS HAD TROUBLE WITH SLEEP</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>78</TH>
+    <TD class=3D"l data">ALCDAY5</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DAYS IN PAST 30 HAD ALCOHOLIC =
+BEVERAGE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>41</TH>
+    <TD class=3D"l data">ASTHMA3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER TOLD HAD ASTHMA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>42</TH>
+    <TD class=3D"l data">ASTHNOW</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">STILL HAVE ASTHMA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>79</TH>
+    <TD class=3D"l data">AVEDRNK2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">AVG ALCOHOLIC DRINKS PER DAY IN PAST =
+30</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>103</TH>
+    <TD class=3D"l data">BLDSTOOL</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER HAD BLOOD STOOL TEST USING HOME =
+KIT</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>114</TH>
+    <TD class=3D"l data">BLDSUGAR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW OFTEN CHECK BLOOD FOR GLUCOSE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>68</TH>
+    <TD class=3D"l data">BLIND</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">BLIND OR DIFFICULTY SEEING</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>22</TH>
+    <TD class=3D"l data">CADULT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ARE YOU 18 YEARS OF AGE OR OLDER?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>138</TH>
+    <TD class=3D"l data">CAREGIV1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PROVIDED REGULAR CARE FOR FAMILY OR =
+FRIE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>130</TH>
+    <TD class=3D"l data">CARERCVD</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">SATISFIED WITH CARE RECEIVED</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>200</TH>
+    <TD class=3D"l data">CASTHDX2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HLTH PRO EVER SAID CHILD HAS ASTHMA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>201</TH>
+    <TD class=3D"l data">CASTHNO2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CHILD STILL HAVE ASTHMA?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>24</TH>
+    <TD class=3D"l data">CCLGHOUS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU LIVE IN COLLEGE HOUSING?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>134</TH>
+    <TD class=3D"l data">CDASSIST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NEED ASSISTANCE WITH DAY-TO_DAY =
+ACTIVITI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>137</TH>
+    <TD class=3D"l data">CDDISCUS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE YOU DISCUSSED YOUR CONFUSION OR =
+MEM</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>135</TH>
+    <TD class=3D"l data">CDHELP</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHEN YOU NEED HELP WITH DAY-TO-DAY =
+ACTIV</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>133</TH>
+    <TD class=3D"l data">CDHOUSE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">GIVEN UP DAY-TO-DAY CHORES DUE TO =
+CONFUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>136</TH>
+    <TD class=3D"l data">CDSOCIAL</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DOES CONFUSION OR MEMORY LOSS =
+INTERFERE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>14</TH>
+    <TD class=3D"l data">CELLFON4</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CELLULAR TELEPHONE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>21</TH>
+    <TD class=3D"l data">CELLFON5</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">IS THIS A CELL PHONE?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>45</TH>
+    <TD class=3D"l data">CHCCOPD1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">(EVER TOLD) YOU HAVE (COPD) CHRONIC =
+OBST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>48</TH>
+    <TD class=3D"l data">CHCKDNY1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">(EVER TOLD) YOU HAVE KIDNEY DISEASE?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>44</TH>
+    <TD class=3D"l data">CHCOCNCR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">(EVER TOLD) YOU HAD ANY OTHER TYPES OF =
+C</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>43</TH>
+    <TD class=3D"l data">CHCSCNCR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">(EVER TOLD) YOU HAD SKIN CANCER?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>35</TH>
+    <TD class=3D"l data">CHECKUP1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">LENGTH OF TIME SINCE LAST ROUTINE =
+CHECKU</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>62</TH>
+    <TD class=3D"l data">CHILDREN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF CHILDREN IN HOUSEHOLD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>117</TH>
+    <TD class=3D"l data">CHKHEMO3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TIMES CHECKED FOR GLYCOSYLATED =
+HEMOGLOBI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>132</TH>
+    <TD class=3D"l data">CIMEMLOS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE YOU EXPERIENCED CONFUSION OR =
+MEMORY</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>175</TH>
+    <TD class=3D"l data">CNCRAGE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">AGE TOLD HAD CANCER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>174</TH>
+    <TD class=3D"l data">CNCRDIFF</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW MANY TYPES OF CANCER?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>176</TH>
+    <TD class=3D"l data">CNCRTYP1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TYPE OF CANCER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>12</TH>
+    <TD class=3D"l data">COLGHOUS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU LIVE IN COLLEGE HOUSING?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>162</TH>
+    <TD class=3D"l data">COPDBRTH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DID YOU HAVE SHORTNESS OF BREATH?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>163</TH>
+    <TD class=3D"l data">COPDBTST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE YOU EVER BEEN GIVEN A BREATHING =
+TES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>160</TH>
+    <TD class=3D"l data">COPDCOGH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DID YOU HAVE A COUGH?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>161</TH>
+    <TD class=3D"l data">COPDFLEM</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DID YOU COUGH UP PHLEGM?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>164</TH>
+    <TD class=3D"l data">COPDSMOK</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW MANY YEARS HAVE YOU SMOKED TOBACCO =
+P</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>59</TH>
+    <TD class=3D"l data">CPDEMO1B</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU HAVE A CELL PHONE FOR PERSONAL =
+US</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>146</TH>
+    <TD class=3D"l data">CRGVEXPT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU EXPECT TO HAVE A RELATIVE YOU =
+WIL</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>144</TH>
+    <TD class=3D"l data">CRGVHOUS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">MANAGED HOUSEHOLD TASKS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>141</TH>
+    <TD class=3D"l data">CRGVHRS1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW MANY HOURS DO YOU PROVIDE CARE FOR =
+P</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>140</TH>
+    <TD class=3D"l data">CRGVLNG1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW LONG PROVIDED CARE FOR PERSON.</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>145</TH>
+    <TD class=3D"l data">CRGVMST3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHICH SUPPORT DO YOU MOST NEED THAT =
+YOU</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>143</TH>
+    <TD class=3D"l data">CRGVPERS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">MANAGED PERSONAL CARE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>142</TH>
+    <TD class=3D"l data">CRGVPRB2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHAT IS THE MAJOR HEALTH PROBLEM, =
+ILLNES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>139</TH>
+    <TD class=3D"l data">CRGVREL2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RELATIONSHIP OF PERSON TO WHOM YOU ARE =
+G</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>184</TH>
+    <TD class=3D"l data">CSRVCLIN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PARTICIPATE IN CLINICAL TRIAL AS PART =
+OF</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>186</TH>
+    <TD class=3D"l data">CSRVCTL1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">IS PAIN UNDER CONTROL?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>183</TH>
+    <TD class=3D"l data">CSRVDEIN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER DENIED INSURANCE COVERAGE BECAUSE =
+O</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>178</TH>
+    <TD class=3D"l data">CSRVDOC1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHAT TYPE OF DOCTOR PROVIDES MAJORITY =
+OF</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>182</TH>
+    <TD class=3D"l data">CSRVINSR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DID HEALTH INSURANCE PAY FOR ALL OF =
+YOUR</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>181</TH>
+    <TD class=3D"l data">CSRVINST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">INSTRUCTIONS WRITTEN OR PRINTED</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>185</TH>
+    <TD class=3D"l data">CSRVPAIN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CURRENTLY HAVE PHYSICAL PAIN FROM =
+CANCER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>180</TH>
+    <TD class=3D"l data">CSRVRTRN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER RECEIVE INSTRUCTIONS FROM A =
+DOCTOR</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>179</TH>
+    <TD class=3D"l data">CSRVSUM</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DID YOU RECEIVE A SUMMARY OF CANCER =
+TREA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>177</TH>
+    <TD class=3D"l data">CSRVTRT2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CURRENTLY RECEIVING TREATMENT FOR =
+CANCER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>25</TH>
+    <TD class=3D"l data">CSTATE1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU CURRENTLY LIVE IN =
+____(STATE)___</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>10</TH>
+    <TD class=3D"l data">CTELENM1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CORRECT TELEPHONE NUMBER?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>20</TH>
+    <TD class=3D"l data">CTELNUM1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CORRECT PHONE NUMBER?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>39</TH>
+    <TD class=3D"l data">CVDCRHD4</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER DIAGNOSED WITH ANGINA OR CORONARY =
+H</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>38</TH>
+    <TD class=3D"l data">CVDINFR4</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER DIAGNOSED WITH HEART ATTACK</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>40</TH>
+    <TD class=3D"l data">CVDSTRK3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER DIAGNOSED WITH A STROKE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>67</TH>
+    <TD class=3D"l data">DEAF</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ARE YOU DEAF OR DO YOU HAVE SERIOUS =
+DIFF</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>69</TH>
+    <TD class=3D"l data">DECIDE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DIFFICULTY CONCENTRATING OR =
+REMEMBERING</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>124</TH>
+    <TD class=3D"l data">DELAYME1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DELAYED GETTING MEDICAL CARE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>50</TH>
+    <TD class=3D"l data">DIABAGE2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">AGE WHEN TOLD HAD DIABETES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>121</TH>
+    <TD class=3D"l data">DIABEDU</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER TAKEN CLASS IN MANAGING DIABETES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>49</TH>
+    <TD class=3D"l data">DIABETE3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">(EVER TOLD) YOU HAVE DIABETES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>120</TH>
+    <TD class=3D"l data">DIABEYE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER TOLD DIABETES HAS AFFECTED EYES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>72</TH>
+    <TD class=3D"l data">DIFFALON</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DIFFICULTY DOING ERRANDS ALONE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>71</TH>
+    <TD class=3D"l data">DIFFDRES</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DIFFICULTY DRESSING OR BATHING</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>70</TH>
+    <TD class=3D"l data">DIFFWALK</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DIFFICULTY WALKING OR CLIMBING STAIRS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>7</TH>
+    <TD class=3D"l data">DISPCODE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">FINAL DISPOSITION</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>125</TH>
+    <TD class=3D"l data">DLYOTHER</TD>
+    <TD class=3D"l data">Char</TD>
+    <TD class=3D"r data">25</TD>
+    <TD class=3D"l data">DELAYED GETTING MEDICAL CARE OTHER =
+RESPO</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>116</TH>
+    <TD class=3D"l data">DOCTDIAB</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TIMES SEEN HEALTH PROFESSIONAL FOR =
+DIABE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>80</TH>
+    <TD class=3D"l data">DRNK3GE5</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">BINGE DRINKING</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>255</TH>
+    <TD class=3D"l data">DRNKANY5</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DRINK ANY ALCOHOLIC BEVERAGES IN PAST =
+30</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>89</TH>
+    <TD class=3D"l data">DRNKDRI2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DID YOU DRIVE AFTER HAVING TOO MUCH TO =
+D</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>256</TH>
+    <TD class=3D"l data">DROCDY3_</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED DRINK-OCCASIONS-PER-DAY</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>128</TH>
+    <TD class=3D"l data">DRVISITS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DOCTOR VISITS PAST 12 MONTHS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>147</TH>
+    <TD class=3D"l data">ECIGARET</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE YOU EVER USED AN E-CIGARETTE OR =
+OTH</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>148</TH>
+    <TD class=3D"l data">ECIGNOW</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU NOW USE E-CIGARETTES, EVERY =
+DAY,</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>55</TH>
+    <TD class=3D"l data">EDUCA</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EDUCATION LEVEL</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>61</TH>
+    <TD class=3D"l data">EMPLOY1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EMPLOYMENT STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>36</TH>
+    <TD class=3D"l data">EXERANY2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EXERCISE IN PAST 30 DAYS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>119</TH>
+    <TD class=3D"l data">EYEEXAM1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">LAST EYE EXAM WHERE PUPILS WERE =
+DILATED</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>86</TH>
+    <TD class=3D"l data">FALL12MN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAD FALL PAST TWELVE MONTHS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>87</TH>
+    <TD class=3D"l data">FALLINJ3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">INJURED IN FALL</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>158</TH>
+    <TD class=3D"l data">FEELNERV</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">FELT NERVOUS, ANXIOUS OR ON EDGE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>118</TH>
+    <TD class=3D"l data">FEETCHK</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TIMES FEET CHECK FOR =
+SORES/IRRITATIONS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>115</TH>
+    <TD class=3D"l data">FEETCHK3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW OFTEN CHECK FEET FOR SORES OR =
+IRRITA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>83</TH>
+    <TD class=3D"l data">FLSHTMY2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHEN RECEIVED MOST RECENT SEASONAL FLU =
+S</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>82</TH>
+    <TD class=3D"l data">FLUSHOT6</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ADULT FLU SHOT/SPRAY PAST 12 MOS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TD class=3D"l data">FMONTH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">FILE MONTH</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>28</TH>
+    <TD class=3D"l data">GENHLTH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">GENERAL HEALTH</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>96</TH>
+    <TD class=3D"l data">HADHYST2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAD HYSTERECTOMY</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>90</TH>
+    <TD class=3D"l data">HADMAM</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE YOU EVER HAD A MAMMOGRAM</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>92</TH>
+    <TD class=3D"l data">HADPAP2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER HAD A PAP TEST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>106</TH>
+    <TD class=3D"l data">HADSGCO1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WAS LAST TEST A SIGMOIDOSCOPY OR =
+COLONOS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>105</TH>
+    <TD class=3D"l data">HADSIGM3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER HAD SIGMOIDOSCOPY/COLONOSCOPY</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>46</TH>
+    <TD class=3D"l data">HAVARTH3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TOLD HAVE ARTHRITIS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>65</TH>
+    <TD class=3D"l data">HEIGHT3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">REPORTED HEIGHT IN FEET AND INCHES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>27</TH>
+    <TD class=3D"l data">HHADULT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF ADULTS IN HOUSEHOLD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>110</TH>
+    <TD class=3D"l data">HIVRISK5</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO ANY HIGH RISK SITUATIONS APPLY</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>108</TH>
+    <TD class=3D"l data">HIVTST6</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER TESTED HIV</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>109</TH>
+    <TD class=3D"l data">HIVTSTD3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">MONTH AND YEAR OF LAST HIV TEST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>123</TH>
+    <TD class=3D"l data">HLTHCVR1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PRIMARY HEALTH INSURANCE COVERAGE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>32</TH>
+    <TD class=3D"l data">HLTHPLN1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE ANY HEALTH CARE COVERAGE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>91</TH>
+    <TD class=3D"l data">HOWLONG</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW LONG SINCE LAST MAMMOGRAM</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>95</TH>
+    <TD class=3D"l data">HPLSTTST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW LONG SINCE YOUR LAST HPV TEST?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>192</TH>
+    <TD class=3D"l data">HPVADSHT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF HPV SHOTS RECEIVED</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>191</TH>
+    <TD class=3D"l data">HPVADVC2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER HAD THE HPV VACCINATION?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>94</TH>
+    <TD class=3D"l data">HPVTEST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE YOU EVER HAD AN HPV TEST?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>244</TH>
+    <TD class=3D"l data">HTIN4</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED HEIGHT IN INCHES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>245</TH>
+    <TD class=3D"l data">HTM4</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED HEIGHT IN METERS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>3</TH>
+    <TD class=3D"l data">IDATE</TD>
+    <TD class=3D"l data">Char</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">INTERVIEW DATE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>5</TH>
+    <TD class=3D"l data">IDAY</TD>
+    <TD class=3D"l data">Char</TD>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">INTERVIEW DAY</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>84</TH>
+    <TD class=3D"l data">IMFVPLAC</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHERE DID YOU GET YOUR LAST FLU =
+SHOT/VAC</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>4</TH>
+    <TD class=3D"l data">IMONTH</TD>
+    <TD class=3D"l data">Char</TD>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">INTERVIEW MONTH</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>63</TH>
+    <TD class=3D"l data">INCOME2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">INCOME LEVEL</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>165</TH>
+    <TD class=3D"l data">INDORTAN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TIMES USED AN INDOOR TANNING DEVICE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>113</TH>
+    <TD class=3D"l data">INSULIN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NOW TAKING INSULIN</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>6</TH>
+    <TD class=3D"l data">IYEAR</TD>
+    <TD class=3D"l data">Char</TD>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">INTERVIEW YEAR</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>15</TH>
+    <TD class=3D"l data">LADULT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ARE YOU 18 YEARS OF AGE OR OLDER?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>26</TH>
+    <TD class=3D"l data">LANDLINE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU ALSO HAVE A LANDLINE =
+TELEPHONE?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>51</TH>
+    <TD class=3D"l data">LASTDEN4</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">LAST VISITED DENTIST OR DENTAL CLINIC</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>93</TH>
+    <TD class=3D"l data">LASTPAP2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW LONG SINCE LAST PAP TEST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>107</TH>
+    <TD class=3D"l data">LASTSIG3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TIME SINCE LAST =
+SIGMOIDOSCOPY/COLONOSCOP</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>76</TH>
+    <TD class=3D"l data">LASTSMK2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">INTERVAL SINCE LAST SMOKED</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>173</TH>
+    <TD class=3D"l data">LCSCTSCN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DID YOU HAVE A CT OR CAT SCAN?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>170</TH>
+    <TD class=3D"l data">LCSFIRST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW OLD WHEN YOU FIRST STARTED =
+SMOKING?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>171</TH>
+    <TD class=3D"l data">LCSLAST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW OLD WHEN YOU LAST SMOKED?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>172</TH>
+    <TD class=3D"l data">LCSNUMCG</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ON AVERAGE, HOW MANY CIGARETTES DO YOU =
+S</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>190</TH>
+    <TD class=3D"l data">LENGEXAM</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW LONG SINCE LAST BREAST PHYSICAL =
+EXAM</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>104</TH>
+    <TD class=3D"l data">LSTBLDS3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TIME SINCE LAST BLOOD STOOL TEST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>127</TH>
+    <TD class=3D"l data">LSTCOVRG</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TIME SINCE LAST HAD HEALTH CARE =
+COVERAGE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>149</TH>
+    <TD class=3D"l data">MARIJAN1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DURING THE PAST 30 DAYS, ON HOW MANY =
+DAY</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>54</TH>
+    <TD class=3D"l data">MARITAL</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">MARITAL STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>81</TH>
+    <TD class=3D"l data">MAXDRNKS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">MOST DRINKS ON SINGLE OCCASION PAST 30 =
+D</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>131</TH>
+    <TD class=3D"l data">MEDBILL1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CURRENTLY HAVE HEALTH CARE BILLS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>34</TH>
+    <TD class=3D"l data">MEDCOST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COULD NOT SEE DR. BECAUSE OF COST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>122</TH>
+    <TD class=3D"l data">MEDICARE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU HAVE MEDICARE?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>129</TH>
+    <TD class=3D"l data">MEDSCOS1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COULD NOT GET MEDICINE DUE TO COST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>30</TH>
+    <TD class=3D"l data">MENTHLTH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF DAYS MENTAL HEALTH NOT GOOD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>206</TH>
+    <TD class=3D"l data">MSCODE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">5</TD>
+    <TD class=3D"l data">METROPOLITAN STATUS CODE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>126</TH>
+    <TD class=3D"l data">NOCOV121</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WITHOUT HEALTH CARE COVERAGE PAST 12 =
+MON</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>16</TH>
+    <TD class=3D"l data">NUMADULT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF ADULTS IN HOUSEHOLD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>166</TH>
+    <TD class=3D"l data">NUMBURN3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF SUNBURNS IN PAST 12 MONTHS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>57</TH>
+    <TD class=3D"l data">NUMHHOL3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOUSEHOLD TELEPHONES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>17</TH>
+    <TD class=3D"l data">NUMMEN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF ADULT MEN IN HOUSEHOLD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>58</TH>
+    <TD class=3D"l data">NUMPHON3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESIDENTIAL PHONES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>18</TH>
+    <TD class=3D"l data">NUMWOMEN</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF ADULT WOMEN IN HOUSEHOLD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>188</TH>
+    <TD class=3D"l data">PCDMDEC1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHO MADE THE DECISION WITH YOU TO HAVE =
+P</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>97</TH>
+    <TD class=3D"l data">PCPSAAD3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAS A HEALTH PROFESSIONAL EVER TALKED =
+WI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>187</TH>
+    <TD class=3D"l data">PCPSADE1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHY WAS PSA TEST DONE?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>98</TH>
+    <TD class=3D"l data">PCPSADI1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAS A HEALTH PROFESSIONAL EVER TALKED =
+WI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>99</TH>
+    <TD class=3D"l data">PCPSARE1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAS A DOCTOR EVER RECOMMENDED THAT YOU =
+H</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>102</TH>
+    <TD class=3D"l data">PCPSARS1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHAT WAS THE MAIN REASON YOU HAD THIS =
+PS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>111</TH>
+    <TD class=3D"l data">PDIABTST</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAD A TEST FOR HIGH BLOOD SUGAR IN =
+PAST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>33</TH>
+    <TD class=3D"l data">PERSDOC2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">MULTIPLE HEALTH CARE PROFESSIONALS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>29</TH>
+    <TD class=3D"l data">PHYSHLTH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF DAYS PHYSICAL HEALTH NOT =
+GOOD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>85</TH>
+    <TD class=3D"l data">PNEUVAC4</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PNEUMONIA SHOT EVER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>31</TH>
+    <TD class=3D"l data">POORHLTH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">POOR PHYSICAL OR MENTAL HEALTH</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>112</TH>
+    <TD class=3D"l data">PREDIAB1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER BEEN TOLD YOU HAVE PRE-DIABETES =
+OR</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>66</TH>
+    <TD class=3D"l data">PREGNANT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PREGNANCY STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>189</TH>
+    <TD class=3D"l data">PROFEXAM</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER HAD BREAST PHYSICAL EXAM BY =
+DOCTOR</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>100</TH>
+    <TD class=3D"l data">PSATEST1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER HAD PSA TEST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>101</TH>
+    <TD class=3D"l data">PSATIME</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TIME SINCE LAST PSA TEST</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>11</TH>
+    <TD class=3D"l data">PVTRESD1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PRIVATE RESIDENCE?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>23</TH>
+    <TD class=3D"l data">PVTRESD3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU LIVE IN A PRIVATE RESIDENCE?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>203</TH>
+    <TD class=3D"l data">QSTLANG</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">LANGUAGE IDENTIFIER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>202</TH>
+    <TD class=3D"l data">QSTVER</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">QUESTIONNAIRE VERSION IDENTIFIER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>198</TH>
+    <TD class=3D"l data">RCSGENDR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">GENDER OF CHILD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>199</TH>
+    <TD class=3D"l data">RCSRLTN2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RELATIONSHIP TO CHILD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>56</TH>
+    <TD class=3D"l data">RENTHOM1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">OWN OR RENT HOME</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>52</TH>
+    <TD class=3D"l data">RMVTETH4</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">NUMBER OF PERMANENT TEETH REMOVED</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>151</TH>
+    <TD class=3D"l data">RSNMRJN1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WHAT WAS THE REASON YOU USED =
+MARIJUANA?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>19</TH>
+    <TD class=3D"l data">SAFETIME</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">SAFE TIME TO TALK?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>88</TH>
+    <TD class=3D"l data">SEATBELT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW OFTEN USE SEATBELTS IN CAR?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>8</TH>
+    <TD class=3D"l data">SEQNO</TD>
+    <TD class=3D"l data">Char</TD>
+    <TD class=3D"r data">10</TD>
+    <TD class=3D"l data">ANNUAL SEQUENCE NUMBER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>53</TH>
+    <TD class=3D"l data">SEX1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS SEX</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>194</TH>
+    <TD class=3D"l data">SHINGLE2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE YOU EVER HAD THE SHINGLES OR =
+ZOSTER</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>155</TH>
+    <TD class=3D"l data">SLEPBRTH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAS ANYONE EVER OBSERVED THAT YOU STOP =
+B</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>153</TH>
+    <TD class=3D"l data">SLEPDAY1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">OVER THE LAST 2 WEEKS, HOW MANY DAYS =
+DID</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>154</TH>
+    <TD class=3D"l data">SLEPSNO2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HAVE YOU EVER BEEN TOLD THAT YOU SNORE =
+L</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>37</TH>
+    <TD class=3D"l data">SLEPTIM1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW MUCH TIME DO YOU SLEEP</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>74</TH>
+    <TD class=3D"l data">SMOKDAY2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">FREQUENCY OF DAYS NOW SMOKING</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>73</TH>
+    <TD class=3D"l data">SMOKE100</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">SMOKED AT LEAST 100 CIGARETTES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>196</TH>
+    <TD class=3D"l data">SOFEMALE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">SEXUAL ORIENTATION</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>195</TH>
+    <TD class=3D"l data">SOMALE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">SEXUAL ORIENTATION</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>13</TH>
+    <TD class=3D"l data">STATERE1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESIDENT OF STATE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>75</TH>
+    <TD class=3D"l data">STOPSMK2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">STOPPED SMOKING IN PAST 12 MONTHS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>159</TH>
+    <TD class=3D"l data">STOPWORY</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">BEEN BOTHERED BY NOT BEING ABLE TO =
+STOP</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>167</TH>
+    <TD class=3D"l data">SUNPRTCT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW OFTEN PROTECT YOURSELF FROM THE =
+SUN</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>193</TH>
+    <TD class=3D"l data">TETANUS1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RECEIVED TETANUS SHOT SINCE 2005?</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>197</TH>
+    <TD class=3D"l data">TRNSGNDR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DO YOU CONSIDER YOURSELF TO BE =
+TRANSGEND</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>150</TH>
+    <TD class=3D"l data">USEMRJN2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DURING THE PAST 30 DAYS, HOW DID YOU =
+PRI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>77</TH>
+    <TD class=3D"l data">USENOW3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">USE OF SMOKELESS TOBACCO PRODUCTS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>60</TH>
+    <TD class=3D"l data">VETERAN3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ARE YOU A VETERAN</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>64</TH>
+    <TD class=3D"l data">WEIGHT2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">REPORTED WEIGHT IN POUNDS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>168</TH>
+    <TD class=3D"l data">WKDAYOUT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW OFTEN OUTSIDE ON WEEKDAYS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>169</TH>
+    <TD class=3D"l data">WKENDOUT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HOW OFTEN OUTSIDE ON WEEKENDS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>246</TH>
+    <TD class=3D"l data">WTKG3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED WEIGHT IN KILOGRAMS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>242</TH>
+    <TD class=3D"l data">_AGE80</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">IMPUTED AGE VALUE COLLAPSED ABOVE 80</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>241</TH>
+    <TD class=3D"l data">_AGE65YR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">REPORTED AGE IN TWO AGE GROUPS =
+CALCULATE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>240</TH>
+    <TD class=3D"l data">_AGEG5YR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">REPORTED AGE IN FIVE-YEAR AGE =
+CATEGORIES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>243</TH>
+    <TD class=3D"l data">_AGE_G</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">IMPUTED AGE IN SIX GROUPS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>275</TH>
+    <TD class=3D"l data">_AIDTST3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">EVER BEEN TESTED FOR HIV CALCULATED =
+VARI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>231</TH>
+    <TD class=3D"l data">_ALTETH3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ADULTS AGED 65+ WHO HAVE HAD ALL THEIR =
+N</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>228</TH>
+    <TD class=3D"l data">_ASTHMS1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED ASTHMA STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>247</TH>
+    <TD class=3D"l data">_BMI5</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED BODY MASS INDEX</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>248</TH>
+    <TD class=3D"l data">_BMI5CAT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED BODY MASS INDEX CATEGORIES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>227</TH>
+    <TD class=3D"l data">_CASTHM1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CURRENT ASTHMA CALCULATED VARIABLE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>212</TH>
+    <TD class=3D"l data">_CHISPNC</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CHILD HISPANIC, LATINO/A, OR SPANISH =
+ORI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>250</TH>
+    <TD class=3D"l data">_CHLDCNT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED NUMBER OF CHILDREN IN =
+HOUSEHOLD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>215</TH>
+    <TD class=3D"l data">_CLLCPWT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">FINAL CHILD WEIGHT: LAND-LINE AND =
+CELL-P</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>270</TH>
+    <TD class=3D"l data">_COL10YR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS AGED 50-75 WHO HAVE HAD A =
+CO</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>214</TH>
+    <TD class=3D"l data">_CPRACE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PREFERRED CHILD RACE CATEGORIES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>213</TH>
+    <TD class=3D"l data">_CRACE1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CHILD NON-HISPANIC RACE INCLUDING =
+MULTIR</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>274</TH>
+    <TD class=3D"l data">_CRCREC</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS AGED 50-75 WHO HAVE FULLY =
+ME</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>232</TH>
+    <TD class=3D"l data">_DENVST3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ADULTS WHO HAVE VISITED A DENTIST, =
+DENTA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>229</TH>
+    <TD class=3D"l data">_DRDXAR1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS DIAGNOSED WITH ARTHRITIS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>264</TH>
+    <TD class=3D"l data">_DRNKDRV</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DRINKING AND DRIVING</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>258</TH>
+    <TD class=3D"l data">_DRNKWEK</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED NUMBER OF DRINKS OF ALCOHOL =
+BEV</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>217</TH>
+    <TD class=3D"l data">_DUALCOR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DUAL PHONE USE CORRECTION FACTOR</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>216</TH>
+    <TD class=3D"l data">_DUALUSE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DUAL PHONE USE CATEGORIES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>251</TH>
+    <TD class=3D"l data">_EDUCAG</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED LEVEL OF EDUCATION COMPLETED =
+CA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>230</TH>
+    <TD class=3D"l data">_EXTETH3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RISK FACTOR FOR HAVING HAD PERMANENT =
+TEE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>260</TH>
+    <TD class=3D"l data">_FLSHOT6</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">FLU SHOT CALCULATED VARIABLE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>273</TH>
+    <TD class=3D"l data">_FOBTFS</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS AGED 50-75 WHO HAVE HAD A =
+BL</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>272</TH>
+    <TD class=3D"l data">_FS5YR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS AGED 50-75 WHO HAVE HAD A =
+SI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>223</TH>
+    <TD class=3D"l data">_HCVU651</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS AGED 18-64 WITH HEALTH =
+CARE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>271</TH>
+    <TD class=3D"l data">_HFOB3YR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS AGED 50-75 WHO HAVE HAD A =
+BL</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>235</TH>
+    <TD class=3D"l data">_HISPANC</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HISPANIC, LATINO/A, OR SPANISH ORIGIN =
+CA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>211</TH>
+    <TD class=3D"l data">_IMPRACE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">IMPUTED RACE/ETHNICITY VALUE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>252</TH>
+    <TD class=3D"l data">_INCOMG</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED INCOME CATEGORIES</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>219</TH>
+    <TD class=3D"l data">_LLCPWT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">FINAL WEIGHT: LAND-LINE AND CELL-PHONE =
+D</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>218</TH>
+    <TD class=3D"l data">_LLCPWT2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">TRUNCATED DESIGN WEIGHT USED IN ADULT =
+CO</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>226</TH>
+    <TD class=3D"l data">_LTASTH1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">LIFETIME ASTHMA CALCULATED VARIABLE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>266</TH>
+    <TD class=3D"l data">_MAM5022</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WOMEN RESPONDENTS AGED 50-74 WHO HAVE =
+HA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>222</TH>
+    <TD class=3D"l data">_MENT14D</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED MENTAL HEALTH STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>204</TH>
+    <TD class=3D"l data">_METSTAT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">METROPOLITAN STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>225</TH>
+    <TD class=3D"l data">_MICHD</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS THAT HAVE EVER REPORTED =
+HAVI</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>234</TH>
+    <TD class=3D"l data">_MRACE1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CALCULATED NON-HISPANIC RACE INCLUDING =
+M</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>221</TH>
+    <TD class=3D"l data">_PHYS14D</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED PHYSICAL HEALTH STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>261</TH>
+    <TD class=3D"l data">_PNEUMO3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PNEUMONIA VACCINATION CALCULATED =
+VARIABL</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>233</TH>
+    <TD class=3D"l data">_PRACE1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED PREFERRED RACE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>9</TH>
+    <TD class=3D"l data">_PSU</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">PRIMARY SAMPLING UNIT</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>236</TH>
+    <TD class=3D"l data">_RACE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED RACE-ETHNICITY GROUPING</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>237</TH>
+    <TD class=3D"l data">_RACEG21</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED NON-HISPANIC WHITES/ALL =
+OTHERS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>238</TH>
+    <TD class=3D"l data">_RACEGR3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED FIVE LEVEL RACE/ETHNICITY =
+CATEG</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>239</TH>
+    <TD class=3D"l data">_RACE_G1</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED RACE GROUPS USED FOR INTERNET =
+P</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>209</TH>
+    <TD class=3D"l data">_RAWRAKE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RAW WEIGHTING FACTOR USED IN RAKING</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>257</TH>
+    <TD class=3D"l data">_RFBING5</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">BINGE DRINKING CALCULATED VARIABLE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>269</TH>
+    <TD class=3D"l data">_RFBLDS3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">RESPONDENTS AGED 50-75 WHO HAVE HAD A =
+BL</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>249</TH>
+    <TD class=3D"l data">_RFBMI5</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">OVERWEIGHT OR OBESE CALCULATED =
+VARIABLE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>259</TH>
+    <TD class=3D"l data">_RFDRHV6</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">HEAVY ALCOHOL CONSUMPTION CALCULATED =
+VA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>220</TH>
+    <TD class=3D"l data">_RFHLTH</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ADULTS WITH GOOD OR BETTER HEALTH</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>265</TH>
+    <TD class=3D"l data">_RFMAM21</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WOMEN RESPONDENTS AGED 40+ WHO HAVE =
+HAD</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>267</TH>
+    <TD class=3D"l data">_RFPAP34</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">WOMEN RESPONDENTS AGED 21-65 WHO HAVE =
+HA</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>268</TH>
+    <TD class=3D"l data">_RFPSA22</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">MALE RESPONDENTS AGED 40+ WHO HAVE HAD =
+A</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>262</TH>
+    <TD class=3D"l data">_RFSEAT2</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ALWAYS OR NEARLY ALWAYS WEAR SEAT =
+BELTS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>263</TH>
+    <TD class=3D"l data">_RFSEAT3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">ALWAYS WEAR SEAT BELTS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>254</TH>
+    <TD class=3D"l data">_RFSMOK3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">CURRENT SMOKING CALCULATED VARIABLE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>253</TH>
+    <TD class=3D"l data">_SMOKER3</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">COMPUTED SMOKING STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TD class=3D"l data">_STATE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">STATE FIPS CODE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>208</TH>
+    <TD class=3D"l data">_STRWT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">STRATUM WEIGHT</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>207</TH>
+    <TD class=3D"l data">_STSTR</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">SAMPLE DESIGN STRATIFICATION VARIABLE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>224</TH>
+    <TD class=3D"l data">_TOTINDA</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">LEISURE TIME PHYSICAL ACTIVITY =
+CALCULATE</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>205</TH>
+    <TD class=3D"l data">_URBSTAT</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">URBAN/RURAL STATUS</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>210</TH>
+    <TD class=3D"l data">_WT2RAKE</TD>
+    <TD class=3D"l data">Num</TD>
+    <TD class=3D"r data">8</TD>
+    <TD class=3D"l data">DESIGN WEIGHT USED IN=20
+RAKING</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV></BODY></HTML>
