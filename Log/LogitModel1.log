@@ -1,0 +1,1540 @@
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA.
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6)
+      Licensed to UNIVERSITY OF ILLINOIS SYSTEM - T&R SFA, Site 70080107.
+NOTE: This session is executing on the X64_10HOME  platform.
+
+
+
+NOTE: Analytical products:
+
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+      SAS/OR 15.1
+      SAS/IML 15.1
+      SAS/QC 15.1
+
+NOTE: Additional host information:
+
+ X64_10HOME WIN 10.0.18362  Workstation
+
+NOTE: SAS initialization used:
+      real time           2.00 seconds
+      cpu time            1.75 seconds
+
+1    libname data "D:\Summer Semester\HealthCare\Data";
+NOTE: Libref DATA was successfully assigned as follows:
+      Engine:        V9
+      Physical Name: D:\Summer Semester\HealthCare\Data
+2
+3    libname XPTfile xport "D:\Summer Semester\HealthCare\Data\LLCP2018.XPT_";
+NOTE: Libref XPTFILE was successfully assigned as follows:
+      Engine:        XPORT
+      Physical Name: D:\Summer Semester\HealthCare\Data\LLCP2018.XPT_
+4
+5    /*A data set named BRFSS_a is created */
+6    data data.BRFSS_a;
+7        set XPTfile.LLCP2018;
+8    run;
+
+NOTE: There were 437436 observations read from the data set XPTFILE.LLCP2018.
+NOTE: The data set DATA.BRFSS_A has 437436 observations and 275 variables.
+NOTE: DATA statement used (Total process time):
+      real time           9.16 seconds
+      cpu time            8.04 seconds
+
+
+9
+10   proc contents data=data.BRFSS_a;
+NOTE: Writing HTML Body file: sashtml.htm
+11   run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           1.24 seconds
+      cpu time            0.78 seconds
+
+
+12
+13   /*Observations: 437436
+14   Variables:275*/
+15
+16
+17   proc export data=data.BRFSS_a
+18   outfile='D:/Summer Semester/HealthCare/Data/BRFSS_a.csv' /*Use the same path as above, adding a
+18 ! forward slash and the name of
+19   your file.csv ( /ExampleCSV.csv )*/
+20   dbms=csv
+21   replace;
+22   run;
+
+23    /**********************************************************************
+24    *   PRODUCT:   SAS
+25    *   VERSION:   9.4
+26    *   CREATOR:   External File Interface
+27    *   DATE:      03JUN20
+28    *   DESC:      Generated SAS Datastep Code
+29    *   TEMPLATE SOURCE:  (None Specified.)
+30    ***********************************************************************/
+31       data _null_;
+32       %let _EFIERR_ = 0; /* set the ERROR detection macro variable */
+33       %let _EFIREC_ = 0;     /* clear export record count macro variable */
+34       file 'D:/Summer Semester/HealthCare/Data/BRFSS_a.csv' delimiter=',' DSD DROPOVER lrecl=32767;
+35       if _n_ = 1 then        /* write column names or labels */
+36        do;
+37          put
+38             "_STATE"
+39          ','
+40             "FMONTH"
+41          ','
+42             "IDATE"
+43          ','
+44             "IMONTH"
+45          ','
+46             "IDAY"
+47          ','
+48             "IYEAR"
+49          ','
+50             "DISPCODE"
+51          ','
+52             "SEQNO"
+53          ','
+54             "_PSU"
+55          ','
+56             "CTELENM1"
+57          ','
+58             "PVTRESD1"
+59          ','
+60             "COLGHOUS"
+61          ','
+62             "STATERE1"
+63          ','
+64             "CELLFON4"
+65          ','
+66             "LADULT"
+67          ','
+68             "NUMADULT"
+69          ','
+70             "NUMMEN"
+71          ','
+72             "NUMWOMEN"
+73          ','
+74             "SAFETIME"
+75          ','
+76             "CTELNUM1"
+77          ','
+78             "CELLFON5"
+79          ','
+80             "CADULT"
+81          ','
+82             "PVTRESD3"
+83          ','
+84             "CCLGHOUS"
+85          ','
+86             "CSTATE1"
+87          ','
+88             "LANDLINE"
+89          ','
+90             "HHADULT"
+91          ','
+92             "GENHLTH"
+93          ','
+94             "PHYSHLTH"
+95          ','
+96             "MENTHLTH"
+97          ','
+98             "POORHLTH"
+99          ','
+100            "HLTHPLN1"
+101         ','
+102            "PERSDOC2"
+103         ','
+104            "MEDCOST"
+105         ','
+106            "CHECKUP1"
+107         ','
+108            "EXERANY2"
+109         ','
+110            "SLEPTIM1"
+111         ','
+112            "CVDINFR4"
+113         ','
+114            "CVDCRHD4"
+115         ','
+116            "CVDSTRK3"
+117         ','
+118            "ASTHMA3"
+119         ','
+120            "ASTHNOW"
+121         ','
+122            "CHCSCNCR"
+123         ','
+124            "CHCOCNCR"
+125         ','
+126            "CHCCOPD1"
+127         ','
+128            "HAVARTH3"
+129         ','
+130            "ADDEPEV2"
+131         ','
+132            "CHCKDNY1"
+133         ','
+134            "DIABETE3"
+135         ','
+136            "DIABAGE2"
+137         ','
+138            "LASTDEN4"
+139         ','
+140            "RMVTETH4"
+141         ','
+142            "SEX1"
+143         ','
+144            "MARITAL"
+145         ','
+146            "EDUCA"
+147         ','
+148            "RENTHOM1"
+149         ','
+150            "NUMHHOL3"
+151         ','
+152            "NUMPHON3"
+153         ','
+154            "CPDEMO1B"
+155         ','
+156            "VETERAN3"
+157         ','
+158            "EMPLOY1"
+159         ','
+160            "CHILDREN"
+161         ','
+162            "INCOME2"
+163         ','
+164            "WEIGHT2"
+165         ','
+166            "HEIGHT3"
+167         ','
+168            "PREGNANT"
+169         ','
+170            "DEAF"
+171         ','
+172            "BLIND"
+173         ','
+174            "DECIDE"
+175         ','
+176            "DIFFWALK"
+177         ','
+178            "DIFFDRES"
+179         ','
+180            "DIFFALON"
+181         ','
+182            "SMOKE100"
+183         ','
+184            "SMOKDAY2"
+185         ','
+186            "STOPSMK2"
+187         ','
+188            "LASTSMK2"
+189         ','
+190            "USENOW3"
+191         ','
+192            "ALCDAY5"
+193         ','
+194            "AVEDRNK2"
+195         ','
+196            "DRNK3GE5"
+197         ','
+198            "MAXDRNKS"
+199         ','
+200            "FLUSHOT6"
+201         ','
+202            "FLSHTMY2"
+203         ','
+204            "IMFVPLAC"
+205         ','
+206            "PNEUVAC4"
+207         ','
+208            "FALL12MN"
+209         ','
+210            "FALLINJ3"
+211         ','
+212            "SEATBELT"
+213         ','
+214            "DRNKDRI2"
+215         ','
+216            "HADMAM"
+217         ','
+218            "HOWLONG"
+219         ','
+220            "HADPAP2"
+221         ','
+222            "LASTPAP2"
+223         ','
+224            "HPVTEST"
+225         ','
+226            "HPLSTTST"
+227         ','
+228            "HADHYST2"
+229         ','
+230            "PCPSAAD3"
+231         ','
+232            "PCPSADI1"
+233         ','
+234            "PCPSARE1"
+235         ','
+236            "PSATEST1"
+237         ','
+238            "PSATIME"
+239         ','
+240            "PCPSARS1"
+241         ','
+242            "BLDSTOOL"
+243         ','
+244            "LSTBLDS3"
+245         ','
+246            "HADSIGM3"
+247         ','
+248            "HADSGCO1"
+249         ','
+250            "LASTSIG3"
+251         ','
+252            "HIVTST6"
+253         ','
+254            "HIVTSTD3"
+255         ','
+256            "HIVRISK5"
+257         ','
+258            "PDIABTST"
+259         ','
+260            "PREDIAB1"
+261         ','
+262            "INSULIN"
+263         ','
+264            "BLDSUGAR"
+265         ','
+266            "FEETCHK3"
+267         ','
+268            "DOCTDIAB"
+269         ','
+270            "CHKHEMO3"
+271         ','
+272            "FEETCHK"
+273         ','
+274            "EYEEXAM1"
+275         ','
+276            "DIABEYE"
+277         ','
+278            "DIABEDU"
+279         ','
+280            "MEDICARE"
+281         ','
+282            "HLTHCVR1"
+283         ','
+284            "DELAYME1"
+285         ','
+286            "DLYOTHER"
+287         ','
+288            "NOCOV121"
+289         ','
+290            "LSTCOVRG"
+291         ','
+292            "DRVISITS"
+293         ','
+294            "MEDSCOS1"
+295         ','
+296            "CARERCVD"
+297         ','
+298            "MEDBILL1"
+299         ','
+300            "CIMEMLOS"
+301         ','
+302            "CDHOUSE"
+303         ','
+304            "CDASSIST"
+305         ','
+306            "CDHELP"
+307         ','
+308            "CDSOCIAL"
+309         ','
+310            "CDDISCUS"
+311         ','
+312            "CAREGIV1"
+313         ','
+314            "CRGVREL2"
+315         ','
+316            "CRGVLNG1"
+317         ','
+318            "CRGVHRS1"
+319         ','
+320            "CRGVPRB2"
+321         ','
+322            "CRGVPERS"
+323         ','
+324            "CRGVHOUS"
+325         ','
+326            "CRGVMST3"
+327         ','
+328            "CRGVEXPT"
+329         ','
+330            "ECIGARET"
+331         ','
+332            "ECIGNOW"
+333         ','
+334            "MARIJAN1"
+335         ','
+336            "USEMRJN2"
+337         ','
+338            "RSNMRJN1"
+339         ','
+340            "ADSLEEP"
+341         ','
+342            "SLEPDAY1"
+343         ','
+344            "SLEPSNO2"
+345         ','
+346            "SLEPBRTH"
+347         ','
+348            "ADPLEAS1"
+349         ','
+350            "ADDOWN1"
+351         ','
+352            "FEELNERV"
+353         ','
+354            "STOPWORY"
+355         ','
+356            "COPDCOGH"
+357         ','
+358            "COPDFLEM"
+359         ','
+360            "COPDBRTH"
+361         ','
+362            "COPDBTST"
+363         ','
+364            "COPDSMOK"
+365         ','
+366            "INDORTAN"
+367         ','
+368            "NUMBURN3"
+369         ','
+370            "SUNPRTCT"
+371         ','
+372            "WKDAYOUT"
+373         ','
+374            "WKENDOUT"
+375         ','
+376            "LCSFIRST"
+377         ','
+378            "LCSLAST"
+379         ','
+380            "LCSNUMCG"
+381         ','
+382            "LCSCTSCN"
+383         ','
+384            "CNCRDIFF"
+385         ','
+386            "CNCRAGE"
+387         ','
+388            "CNCRTYP1"
+389         ','
+390            "CSRVTRT2"
+391         ','
+392            "CSRVDOC1"
+393         ','
+394            "CSRVSUM"
+395         ','
+396            "CSRVRTRN"
+397         ','
+398            "CSRVINST"
+399         ','
+400            "CSRVINSR"
+401         ','
+402            "CSRVDEIN"
+403         ','
+404            "CSRVCLIN"
+405         ','
+406            "CSRVPAIN"
+407         ','
+408            "CSRVCTL1"
+409         ','
+410            "PCPSADE1"
+411         ','
+412            "PCDMDEC1"
+413         ','
+414            "PROFEXAM"
+415         ','
+416            "LENGEXAM"
+417         ','
+418            "HPVADVC2"
+419         ','
+420            "HPVADSHT"
+421         ','
+422            "TETANUS1"
+423         ','
+424            "SHINGLE2"
+425         ','
+426            "SOMALE"
+427         ','
+428            "SOFEMALE"
+429         ','
+430            "TRNSGNDR"
+431         ','
+432            "RCSGENDR"
+433         ','
+434            "RCSRLTN2"
+435         ','
+436            "CASTHDX2"
+437         ','
+438            "CASTHNO2"
+439         ','
+440            "QSTVER"
+441         ','
+442            "QSTLANG"
+443         ','
+444            "_METSTAT"
+445         ','
+446            "_URBSTAT"
+447         ','
+448            "MSCODE"
+449         ','
+450            "_STSTR"
+451         ','
+452            "_STRWT"
+453         ','
+454            "_RAWRAKE"
+455         ','
+456            "_WT2RAKE"
+457         ','
+458            "_IMPRACE"
+459         ','
+460            "_CHISPNC"
+461         ','
+462            "_CRACE1"
+463         ','
+464            "_CPRACE"
+465         ','
+466            "_CLLCPWT"
+467         ','
+468            "_DUALUSE"
+469         ','
+470            "_DUALCOR"
+471         ','
+472            "_LLCPWT2"
+473         ','
+474            "_LLCPWT"
+475         ','
+476            "_RFHLTH"
+477         ','
+478            "_PHYS14D"
+479         ','
+480            "_MENT14D"
+481         ','
+482            "_HCVU651"
+483         ','
+484            "_TOTINDA"
+485         ','
+486            "_MICHD"
+487         ','
+488            "_LTASTH1"
+489         ','
+490            "_CASTHM1"
+491         ','
+492            "_ASTHMS1"
+493         ','
+494            "_DRDXAR1"
+495         ','
+496            "_EXTETH3"
+497         ','
+498            "_ALTETH3"
+499         ','
+500            "_DENVST3"
+501         ','
+502            "_PRACE1"
+503         ','
+504            "_MRACE1"
+505         ','
+506            "_HISPANC"
+507         ','
+508            "_RACE"
+509         ','
+510            "_RACEG21"
+511         ','
+512            "_RACEGR3"
+513         ','
+514            "_RACE_G1"
+515         ','
+516            "_AGEG5YR"
+517         ','
+518            "_AGE65YR"
+519         ','
+520            "_AGE80"
+521         ','
+522            "_AGE_G"
+523         ','
+524            "HTIN4"
+525         ','
+526            "HTM4"
+527         ','
+528            "WTKG3"
+529         ','
+530            "_BMI5"
+531         ','
+532            "_BMI5CAT"
+533         ','
+534            "_RFBMI5"
+535         ','
+536            "_CHLDCNT"
+537         ','
+538            "_EDUCAG"
+539         ','
+540            "_INCOMG"
+541         ','
+542            "_SMOKER3"
+543         ','
+544            "_RFSMOK3"
+545         ','
+546            "DRNKANY5"
+547         ','
+548            "DROCDY3_"
+549         ','
+550            "_RFBING5"
+551         ','
+552            "_DRNKWEK"
+553         ','
+554            "_RFDRHV6"
+555         ','
+556            "_FLSHOT6"
+557         ','
+558            "_PNEUMO3"
+559         ','
+560            "_RFSEAT2"
+561         ','
+562            "_RFSEAT3"
+563         ','
+564            "_DRNKDRV"
+565         ','
+566            "_RFMAM21"
+567         ','
+568            "_MAM5022"
+569         ','
+570            "_RFPAP34"
+571         ','
+572            "_RFPSA22"
+573         ','
+574            "_RFBLDS3"
+575         ','
+576            "_COL10YR"
+577         ','
+578            "_HFOB3YR"
+579         ','
+580            "_FS5YR"
+581         ','
+582            "_FOBTFS"
+583         ','
+584            "_CRCREC"
+585         ','
+586            "_AIDTST3"
+587         ;
+588       end;
+589     set  DATA.BRFSS_A   end=EFIEOD;
+590         format _STATE best12. ;
+591         format FMONTH best12. ;
+592         format IDATE $8. ;
+593         format IMONTH $2. ;
+594         format IDAY $2. ;
+595         format IYEAR $4. ;
+596         format DISPCODE best12. ;
+597         format SEQNO $10. ;
+598         format _PSU best12. ;
+599         format CTELENM1 best12. ;
+600         format PVTRESD1 best12. ;
+601         format COLGHOUS best12. ;
+602         format STATERE1 best12. ;
+603         format CELLFON4 best12. ;
+604         format LADULT best12. ;
+605         format NUMADULT best12. ;
+606         format NUMMEN best12. ;
+607         format NUMWOMEN best12. ;
+608         format SAFETIME best12. ;
+609         format CTELNUM1 best12. ;
+610         format CELLFON5 best12. ;
+611         format CADULT best12. ;
+612         format PVTRESD3 best12. ;
+613         format CCLGHOUS best12. ;
+614         format CSTATE1 best12. ;
+615         format LANDLINE best12. ;
+616         format HHADULT best12. ;
+617         format GENHLTH best12. ;
+618         format PHYSHLTH best12. ;
+619         format MENTHLTH best12. ;
+620         format POORHLTH best12. ;
+621         format HLTHPLN1 best12. ;
+622         format PERSDOC2 best12. ;
+623         format MEDCOST best12. ;
+624         format CHECKUP1 best12. ;
+625         format EXERANY2 best12. ;
+626         format SLEPTIM1 best12. ;
+627         format CVDINFR4 best12. ;
+628         format CVDCRHD4 best12. ;
+629         format CVDSTRK3 best12. ;
+630         format ASTHMA3 best12. ;
+631         format ASTHNOW best12. ;
+632         format CHCSCNCR best12. ;
+633         format CHCOCNCR best12. ;
+634         format CHCCOPD1 best12. ;
+635         format HAVARTH3 best12. ;
+636         format ADDEPEV2 best12. ;
+637         format CHCKDNY1 best12. ;
+638         format DIABETE3 best12. ;
+639         format DIABAGE2 best12. ;
+640         format LASTDEN4 best12. ;
+641         format RMVTETH4 best12. ;
+642         format SEX1 best12. ;
+643         format MARITAL best12. ;
+644         format EDUCA best12. ;
+645         format RENTHOM1 best12. ;
+646         format NUMHHOL3 best12. ;
+647         format NUMPHON3 best12. ;
+648         format CPDEMO1B best12. ;
+649         format VETERAN3 best12. ;
+650         format EMPLOY1 best12. ;
+651         format CHILDREN best12. ;
+652         format INCOME2 best12. ;
+653         format WEIGHT2 best12. ;
+654         format HEIGHT3 best12. ;
+655         format PREGNANT best12. ;
+656         format DEAF best12. ;
+657         format BLIND best12. ;
+658         format DECIDE best12. ;
+659         format DIFFWALK best12. ;
+660         format DIFFDRES best12. ;
+661         format DIFFALON best12. ;
+662         format SMOKE100 best12. ;
+663         format SMOKDAY2 best12. ;
+664         format STOPSMK2 best12. ;
+665         format LASTSMK2 best12. ;
+666         format USENOW3 best12. ;
+667         format ALCDAY5 best12. ;
+668         format AVEDRNK2 best12. ;
+669         format DRNK3GE5 best12. ;
+670         format MAXDRNKS best12. ;
+671         format FLUSHOT6 best12. ;
+672         format FLSHTMY2 best12. ;
+673         format IMFVPLAC best12. ;
+674         format PNEUVAC4 best12. ;
+675         format FALL12MN best12. ;
+676         format FALLINJ3 best12. ;
+677         format SEATBELT best12. ;
+678         format DRNKDRI2 best12. ;
+679         format HADMAM best12. ;
+680         format HOWLONG best12. ;
+681         format HADPAP2 best12. ;
+682         format LASTPAP2 best12. ;
+683         format HPVTEST best12. ;
+684         format HPLSTTST best12. ;
+685         format HADHYST2 best12. ;
+686         format PCPSAAD3 best12. ;
+687         format PCPSADI1 best12. ;
+688         format PCPSARE1 best12. ;
+689         format PSATEST1 best12. ;
+690         format PSATIME best12. ;
+691         format PCPSARS1 best12. ;
+692         format BLDSTOOL best12. ;
+693         format LSTBLDS3 best12. ;
+694         format HADSIGM3 best12. ;
+695         format HADSGCO1 best12. ;
+696         format LASTSIG3 best12. ;
+697         format HIVTST6 best12. ;
+698         format HIVTSTD3 best12. ;
+699         format HIVRISK5 best12. ;
+700         format PDIABTST best12. ;
+701         format PREDIAB1 best12. ;
+702         format INSULIN best12. ;
+703         format BLDSUGAR best12. ;
+704         format FEETCHK3 best12. ;
+705         format DOCTDIAB best12. ;
+706         format CHKHEMO3 best12. ;
+707         format FEETCHK best12. ;
+708         format EYEEXAM1 best12. ;
+709         format DIABEYE best12. ;
+710         format DIABEDU best12. ;
+711         format MEDICARE best12. ;
+712         format HLTHCVR1 best12. ;
+713         format DELAYME1 best12. ;
+714         format DLYOTHER $25. ;
+715         format NOCOV121 best12. ;
+716         format LSTCOVRG best12. ;
+717         format DRVISITS best12. ;
+718         format MEDSCOS1 best12. ;
+719         format CARERCVD best12. ;
+720         format MEDBILL1 best12. ;
+721         format CIMEMLOS best12. ;
+722         format CDHOUSE best12. ;
+723         format CDASSIST best12. ;
+724         format CDHELP best12. ;
+725         format CDSOCIAL best12. ;
+726         format CDDISCUS best12. ;
+727         format CAREGIV1 best12. ;
+728         format CRGVREL2 best12. ;
+729         format CRGVLNG1 best12. ;
+730         format CRGVHRS1 best12. ;
+731         format CRGVPRB2 best12. ;
+732         format CRGVPERS best12. ;
+733         format CRGVHOUS best12. ;
+734         format CRGVMST3 best12. ;
+735         format CRGVEXPT best12. ;
+736         format ECIGARET best12. ;
+737         format ECIGNOW best12. ;
+738         format MARIJAN1 best12. ;
+739         format USEMRJN2 best12. ;
+740         format RSNMRJN1 best12. ;
+741         format ADSLEEP best12. ;
+742         format SLEPDAY1 best12. ;
+743         format SLEPSNO2 best12. ;
+744         format SLEPBRTH best12. ;
+745         format ADPLEAS1 best12. ;
+746         format ADDOWN1 best12. ;
+747         format FEELNERV best12. ;
+748         format STOPWORY best12. ;
+749         format COPDCOGH best12. ;
+750         format COPDFLEM best12. ;
+751         format COPDBRTH best12. ;
+752         format COPDBTST best12. ;
+753         format COPDSMOK best12. ;
+754         format INDORTAN best12. ;
+755         format NUMBURN3 best12. ;
+756         format SUNPRTCT best12. ;
+757         format WKDAYOUT best12. ;
+758         format WKENDOUT best12. ;
+759         format LCSFIRST best12. ;
+760         format LCSLAST best12. ;
+761         format LCSNUMCG best12. ;
+762         format LCSCTSCN best12. ;
+763         format CNCRDIFF best12. ;
+764         format CNCRAGE best12. ;
+765         format CNCRTYP1 best12. ;
+766         format CSRVTRT2 best12. ;
+767         format CSRVDOC1 best12. ;
+768         format CSRVSUM best12. ;
+769         format CSRVRTRN best12. ;
+770         format CSRVINST best12. ;
+771         format CSRVINSR best12. ;
+772         format CSRVDEIN best12. ;
+773         format CSRVCLIN best12. ;
+774         format CSRVPAIN best12. ;
+775         format CSRVCTL1 best12. ;
+776         format PCPSADE1 best12. ;
+777         format PCDMDEC1 best12. ;
+778         format PROFEXAM best12. ;
+779         format LENGEXAM best12. ;
+780         format HPVADVC2 best12. ;
+781         format HPVADSHT best12. ;
+782         format TETANUS1 best12. ;
+783         format SHINGLE2 best12. ;
+784         format SOMALE best12. ;
+785         format SOFEMALE best12. ;
+786         format TRNSGNDR best12. ;
+787         format RCSGENDR best12. ;
+788         format RCSRLTN2 best12. ;
+789         format CASTHDX2 best12. ;
+790         format CASTHNO2 best12. ;
+791         format QSTVER best12. ;
+792         format QSTLANG best12. ;
+793         format _METSTAT best12. ;
+794         format _URBSTAT best12. ;
+795         format MSCODE best12. ;
+796         format _STSTR best12. ;
+797         format _STRWT best12. ;
+798         format _RAWRAKE best12. ;
+799         format _WT2RAKE best12. ;
+800         format _IMPRACE best12. ;
+801         format _CHISPNC best12. ;
+802         format _CRACE1 best12. ;
+803         format _CPRACE best12. ;
+804         format _CLLCPWT best12. ;
+805         format _DUALUSE best12. ;
+806         format _DUALCOR best12. ;
+807         format _LLCPWT2 best12. ;
+808         format _LLCPWT best12. ;
+809         format _RFHLTH best12. ;
+810         format _PHYS14D best12. ;
+811         format _MENT14D best12. ;
+812         format _HCVU651 best12. ;
+813         format _TOTINDA best12. ;
+814         format _MICHD best12. ;
+815         format _LTASTH1 best12. ;
+816         format _CASTHM1 best12. ;
+817         format _ASTHMS1 best12. ;
+818         format _DRDXAR1 best12. ;
+819         format _EXTETH3 best12. ;
+820         format _ALTETH3 best12. ;
+821         format _DENVST3 best12. ;
+822         format _PRACE1 best12. ;
+823         format _MRACE1 best12. ;
+824         format _HISPANC best12. ;
+825         format _RACE best12. ;
+826         format _RACEG21 best12. ;
+827         format _RACEGR3 best12. ;
+828         format _RACE_G1 best12. ;
+829         format _AGEG5YR best12. ;
+830         format _AGE65YR best12. ;
+831         format _AGE80 best12. ;
+832         format _AGE_G best12. ;
+833         format HTIN4 best12. ;
+834         format HTM4 best12. ;
+835         format WTKG3 best12. ;
+836         format _BMI5 best12. ;
+837         format _BMI5CAT best12. ;
+838         format _RFBMI5 best12. ;
+839         format _CHLDCNT best12. ;
+840         format _EDUCAG best12. ;
+841         format _INCOMG best12. ;
+842         format _SMOKER3 best12. ;
+843         format _RFSMOK3 best12. ;
+844         format DRNKANY5 best12. ;
+845         format DROCDY3_ best12. ;
+846         format _RFBING5 best12. ;
+847         format _DRNKWEK best12. ;
+848         format _RFDRHV6 best12. ;
+849         format _FLSHOT6 best12. ;
+850         format _PNEUMO3 best12. ;
+851         format _RFSEAT2 best12. ;
+852         format _RFSEAT3 best12. ;
+853         format _DRNKDRV best12. ;
+854         format _RFMAM21 best12. ;
+855         format _MAM5022 best12. ;
+856         format _RFPAP34 best12. ;
+857         format _RFPSA22 best12. ;
+858         format _RFBLDS3 best12. ;
+859         format _COL10YR best12. ;
+860         format _HFOB3YR best12. ;
+861         format _FS5YR best12. ;
+862         format _FOBTFS best12. ;
+863         format _CRCREC best12. ;
+864         format _AIDTST3 best12. ;
+865       do;
+866         EFIOUT + 1;
+867         put _STATE @;
+868         put FMONTH @;
+869         put IDATE $ @;
+870         put IMONTH $ @;
+871         put IDAY $ @;
+872         put IYEAR $ @;
+873         put DISPCODE @;
+874         put SEQNO $ @;
+875         put _PSU @;
+876         put CTELENM1 @;
+877         put PVTRESD1 @;
+878         put COLGHOUS @;
+879         put STATERE1 @;
+880         put CELLFON4 @;
+881         put LADULT @;
+882         put NUMADULT @;
+883         put NUMMEN @;
+884         put NUMWOMEN @;
+885         put SAFETIME @;
+886         put CTELNUM1 @;
+887         put CELLFON5 @;
+888         put CADULT @;
+889         put PVTRESD3 @;
+890         put CCLGHOUS @;
+891         put CSTATE1 @;
+892         put LANDLINE @;
+893         put HHADULT @;
+894         put GENHLTH @;
+895         put PHYSHLTH @;
+896         put MENTHLTH @;
+897         put POORHLTH @;
+898         put HLTHPLN1 @;
+899         put PERSDOC2 @;
+900         put MEDCOST @;
+901         put CHECKUP1 @;
+902         put EXERANY2 @;
+903         put SLEPTIM1 @;
+904         put CVDINFR4 @;
+905         put CVDCRHD4 @;
+906         put CVDSTRK3 @;
+907         put ASTHMA3 @;
+908         put ASTHNOW @;
+909         put CHCSCNCR @;
+910         put CHCOCNCR @;
+911         put CHCCOPD1 @;
+912         put HAVARTH3 @;
+913         put ADDEPEV2 @;
+914         put CHCKDNY1 @;
+915         put DIABETE3 @;
+916         put DIABAGE2 @;
+917         put LASTDEN4 @;
+918         put RMVTETH4 @;
+919         put SEX1 @;
+920         put MARITAL @;
+921         put EDUCA @;
+922         put RENTHOM1 @;
+923         put NUMHHOL3 @;
+924         put NUMPHON3 @;
+925         put CPDEMO1B @;
+926         put VETERAN3 @;
+927         put EMPLOY1 @;
+928         put CHILDREN @;
+929         put INCOME2 @;
+930         put WEIGHT2 @;
+931         put HEIGHT3 @;
+932         put PREGNANT @;
+933         put DEAF @;
+934         put BLIND @;
+935         put DECIDE @;
+936         put DIFFWALK @;
+937         put DIFFDRES @;
+938         put DIFFALON @;
+939         put SMOKE100 @;
+940         put SMOKDAY2 @;
+941         put STOPSMK2 @;
+942         put LASTSMK2 @;
+943         put USENOW3 @;
+944         put ALCDAY5 @;
+945         put AVEDRNK2 @;
+946         put DRNK3GE5 @;
+947         put MAXDRNKS @;
+948         put FLUSHOT6 @;
+949         put FLSHTMY2 @;
+950         put IMFVPLAC @;
+951         put PNEUVAC4 @;
+952         put FALL12MN @;
+953         put FALLINJ3 @;
+954         put SEATBELT @;
+955         put DRNKDRI2 @;
+956         put HADMAM @;
+957         put HOWLONG @;
+958         put HADPAP2 @;
+959         put LASTPAP2 @;
+960         put HPVTEST @;
+961         put HPLSTTST @;
+962         put HADHYST2 @;
+963         put PCPSAAD3 @;
+964         put PCPSADI1 @;
+965         put PCPSARE1 @;
+966         put PSATEST1 @;
+967         put PSATIME @;
+968         put PCPSARS1 @;
+969         put BLDSTOOL @;
+970         put LSTBLDS3 @;
+971         put HADSIGM3 @;
+972         put HADSGCO1 @;
+973         put LASTSIG3 @;
+974         put HIVTST6 @;
+975         put HIVTSTD3 @;
+976         put HIVRISK5 @;
+977         put PDIABTST @;
+978         put PREDIAB1 @;
+979         put INSULIN @;
+980         put BLDSUGAR @;
+981         put FEETCHK3 @;
+982         put DOCTDIAB @;
+983         put CHKHEMO3 @;
+984         put FEETCHK @;
+985         put EYEEXAM1 @;
+986         put DIABEYE @;
+987         put DIABEDU @;
+988         put MEDICARE @;
+989         put HLTHCVR1 @;
+990         put DELAYME1 @;
+991         put DLYOTHER $ @;
+992         put NOCOV121 @;
+993         put LSTCOVRG @;
+994         put DRVISITS @;
+995         put MEDSCOS1 @;
+996         put CARERCVD @;
+997         put MEDBILL1 @;
+998         put CIMEMLOS @;
+999         put CDHOUSE @;
+1000         put CDASSIST @;
+1001         put CDHELP @;
+1002         put CDSOCIAL @;
+1003         put CDDISCUS @;
+1004         put CAREGIV1 @;
+1005         put CRGVREL2 @;
+1006         put CRGVLNG1 @;
+1007         put CRGVHRS1 @;
+1008         put CRGVPRB2 @;
+1009         put CRGVPERS @;
+1010         put CRGVHOUS @;
+1011         put CRGVMST3 @;
+1012         put CRGVEXPT @;
+1013         put ECIGARET @;
+1014         put ECIGNOW @;
+1015         put MARIJAN1 @;
+1016         put USEMRJN2 @;
+1017         put RSNMRJN1 @;
+1018         put ADSLEEP @;
+1019         put SLEPDAY1 @;
+1020         put SLEPSNO2 @;
+1021         put SLEPBRTH @;
+1022         put ADPLEAS1 @;
+1023         put ADDOWN1 @;
+1024         put FEELNERV @;
+1025         put STOPWORY @;
+1026         put COPDCOGH @;
+1027         put COPDFLEM @;
+1028         put COPDBRTH @;
+1029         put COPDBTST @;
+1030         put COPDSMOK @;
+1031         put INDORTAN @;
+1032         put NUMBURN3 @;
+1033         put SUNPRTCT @;
+1034         put WKDAYOUT @;
+1035         put WKENDOUT @;
+1036         put LCSFIRST @;
+1037         put LCSLAST @;
+1038         put LCSNUMCG @;
+1039         put LCSCTSCN @;
+1040         put CNCRDIFF @;
+1041         put CNCRAGE @;
+1042         put CNCRTYP1 @;
+1043         put CSRVTRT2 @;
+1044         put CSRVDOC1 @;
+1045         put CSRVSUM @;
+1046         put CSRVRTRN @;
+1047         put CSRVINST @;
+1048         put CSRVINSR @;
+1049         put CSRVDEIN @;
+1050         put CSRVCLIN @;
+1051         put CSRVPAIN @;
+1052         put CSRVCTL1 @;
+1053         put PCPSADE1 @;
+1054         put PCDMDEC1 @;
+1055         put PROFEXAM @;
+1056         put LENGEXAM @;
+1057         put HPVADVC2 @;
+1058         put HPVADSHT @;
+1059         put TETANUS1 @;
+1060         put SHINGLE2 @;
+1061         put SOMALE @;
+1062         put SOFEMALE @;
+1063         put TRNSGNDR @;
+1064         put RCSGENDR @;
+1065         put RCSRLTN2 @;
+1066         put CASTHDX2 @;
+1067         put CASTHNO2 @;
+1068         put QSTVER @;
+1069         put QSTLANG @;
+1070         put _METSTAT @;
+1071         put _URBSTAT @;
+1072         put MSCODE @;
+1073         put _STSTR @;
+1074         put _STRWT @;
+1075         put _RAWRAKE @;
+1076         put _WT2RAKE @;
+1077         put _IMPRACE @;
+1078         put _CHISPNC @;
+1079         put _CRACE1 @;
+1080         put _CPRACE @;
+1081         put _CLLCPWT @;
+1082         put _DUALUSE @;
+1083         put _DUALCOR @;
+1084         put _LLCPWT2 @;
+1085         put _LLCPWT @;
+1086         put _RFHLTH @;
+1087         put _PHYS14D @;
+1088         put _MENT14D @;
+1089         put _HCVU651 @;
+1090         put _TOTINDA @;
+1091         put _MICHD @;
+1092         put _LTASTH1 @;
+1093         put _CASTHM1 @;
+1094         put _ASTHMS1 @;
+1095         put _DRDXAR1 @;
+1096         put _EXTETH3 @;
+1097         put _ALTETH3 @;
+1098         put _DENVST3 @;
+1099         put _PRACE1 @;
+1100         put _MRACE1 @;
+1101         put _HISPANC @;
+1102         put _RACE @;
+1103         put _RACEG21 @;
+1104         put _RACEGR3 @;
+1105         put _RACE_G1 @;
+1106         put _AGEG5YR @;
+1107         put _AGE65YR @;
+1108         put _AGE80 @;
+1109         put _AGE_G @;
+1110         put HTIN4 @;
+1111         put HTM4 @;
+1112         put WTKG3 @;
+1113         put _BMI5 @;
+1114         put _BMI5CAT @;
+1115         put _RFBMI5 @;
+1116         put _CHLDCNT @;
+1117         put _EDUCAG @;
+1118         put _INCOMG @;
+1119         put _SMOKER3 @;
+1120         put _RFSMOK3 @;
+1121         put DRNKANY5 @;
+1122         put DROCDY3_ @;
+1123         put _RFBING5 @;
+1124         put _DRNKWEK @;
+1125         put _RFDRHV6 @;
+1126         put _FLSHOT6 @;
+1127         put _PNEUMO3 @;
+1128         put _RFSEAT2 @;
+1129         put _RFSEAT3 @;
+1130         put _DRNKDRV @;
+1131         put _RFMAM21 @;
+1132         put _MAM5022 @;
+1133         put _RFPAP34 @;
+1134         put _RFPSA22 @;
+1135         put _RFBLDS3 @;
+1136         put _COL10YR @;
+1137         put _HFOB3YR @;
+1138         put _FS5YR @;
+1139         put _FOBTFS @;
+1140         put _CRCREC @;
+1141         put _AIDTST3 ;
+1142         ;
+1143       end;
+1144      if _ERROR_ then call symputx('_EFIERR_',1);  /* set ERROR detection macro variable */
+1145      if EFIEOD then call symputx('_EFIREC_',EFIOUT);
+1146      run;
+
+NOTE: The file 'D:/Summer Semester/HealthCare/Data/BRFSS_a.csv' is:
+      Filename=D:\Summer Semester\HealthCare\Data\BRFSS_a.csv,
+      RECFM=V,LRECL=32767,File Size (bytes)=0,
+      Last Modified=03Jun2020:14:13:07,
+      Create Time=03Jun2020:14:13:07
+
+NOTE: 437437 records were written to the file 'D:/Summer Semester/HealthCare/Data/BRFSS_a.csv'.
+      The minimum record length was 427.
+      The maximum record length was 2350.
+NOTE: There were 437436 observations read from the data set DATA.BRFSS_A.
+NOTE: DATA statement used (Total process time):
+      real time           24.67 seconds
+      cpu time            23.70 seconds
+
+
+437436 records created in D:/Summer Semester/HealthCare/Data/BRFSS_a.csv from DATA.BRFSS_A.
+
+
+NOTE: "D:/Summer Semester/HealthCare/Data/BRFSS_a.csv" file was successfully created.
+NOTE: PROCEDURE EXPORT used (Total process time):
+      real time           25.17 seconds
+      cpu time            24.04 seconds
+
+
+
+1147  data brfss_b(keep= _BMI5CAT  _MENT14D _PHYS14D SEX1);
+1148  set data.brfss_a;
+1149  run;
+
+NOTE: There were 437436 observations read from the data set DATA.BRFSS_A.
+NOTE: The data set WORK.BRFSS_B has 437436 observations and 4 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.51 seconds
+      cpu time            0.51 seconds
+
+
+1150  /*Univariate analysis of BMI*/
+1151  proc freq data=brfss_b ;
+1152  tables _BMI5CAT;
+1153  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.07 seconds
+
+
+1154
+1155  /*Removed Unknown BMI*/
+1156  data brfss_c;
+1157  set brfss_b;
+1158  if _BMI5CAT eq . then delete;
+1159  else  output  brfss_c;
+1160  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B.
+NOTE: The data set WORK.BRFSS_C has 402174 observations and 4 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.08 seconds
+      cpu time            0.07 seconds
+
+
+1161
+1162  data brfss_c;
+1163  set brfss_c;
+1164  if _BMI5CAT = 1 then _BMI5CAT2= "Underweight";
+1165  else if  _BMI5CAT = 2 then _BMI5CAT2= "Normal";
+1166  else if _BMI5CAT=3 then _BMI5CAT2= "Overweight";
+1167  else _BMI5CAT2= "Obese";
+1168  run;
+
+NOTE: There were 402174 observations read from the data set WORK.BRFSS_C.
+NOTE: The data set WORK.BRFSS_C has 402174 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.14 seconds
+
+
+1169
+1170  proc freq data=brfss_c ;
+1171  tables _BMI5CAT2 ;
+1172  run;
+
+NOTE: There were 402174 observations read from the data set WORK.BRFSS_C.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.08 seconds
+      cpu time            0.09 seconds
+
+
+1173
+1174
+1175  /*Univariate analysis of Mental Health*/
+1176  proc freq data=brfss_c;
+1177  tables _MENT14D;
+1178  run;
+
+NOTE: There were 402174 observations read from the data set WORK.BRFSS_C.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.06 seconds
+
+
+1179
+1180  data brfss_d;
+1181  set brfss_c;
+1182  if _MENT14D = 9 then
+1183      delete;
+1184  else
+1185      output brfss_d;
+1186  run;
+
+NOTE: There were 402174 observations read from the data set WORK.BRFSS_C.
+NOTE: The data set WORK.BRFSS_D has 396287 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.09 seconds
+      cpu time            0.09 seconds
+
+
+1187
+1188  data brfss_d;
+1189  set brfss_d;
+1190  if _MENT14D = 1 then _MENT14D2 = "Above Average: 0 days";
+1191  else if  _MENT14D = 2 then _MENT14D2= "Average:<14days";
+1192  else _MENT14D2= "Below Average:>14days";
+1193  run;
+
+NOTE: There were 396287 observations read from the data set WORK.BRFSS_D.
+NOTE: The data set WORK.BRFSS_D has 396287 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.11 seconds
+      cpu time            0.12 seconds
+
+
+1194
+1195  proc freq data=brfss_d;
+1196  tables _MENT14D2;
+1197  run;
+
+NOTE: There were 396287 observations read from the data set WORK.BRFSS_D.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.09 seconds
+      cpu time            0.09 seconds
+
+
+1198
+1199  /*Remove missing/unknown gender*/
+1200  data brfss_e;
+1201  set brfss_d;
+1202  if SEX1 = 7 or SEX1= 9 then delete;
+1203  else output brfss_e;
+1204  run;
+
+NOTE: There were 396287 observations read from the data set WORK.BRFSS_D.
+NOTE: The data set WORK.BRFSS_E has 395587 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.09 seconds
+
+
+1205
+1206  proc freq data=brfss_e;
+1207  tables sex1;
+1208  run;
+
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_E.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.04 seconds
+
+
+1209
+1210  /*Bivariate Analysis */
+1211  proc freq data=brfss_e ;
+1212  tables  _MENT14D2 * _BMI5CAT2 ;
+1213  run;
+
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_E.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.13 seconds
+      cpu time            0.10 seconds
+
+
+1214
+1215  /*Graphical Representation*/
+1216  ods graphics on;
+1217  proc freq data=brfss_e ;
+1218  tables _MENT14D2 *_BMI5CAT2  / chisq plots=all;
+1219  run;
+
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_E.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           2.59 seconds
+      cpu time            0.85 seconds
+
+
+1220  ods graphics off;
+1221
+1222  /* Underweight respondants are more likely to stay mentally unhealthy for more than 14 a month.
+1223  followed by obese respondants. Overweight and people with normal BMI are less likely to have
+1223! mental issues.
+1224
+1225  Chi-sq test suggests that there is a BMI is statistically significant indeterming mental health
+1225! of a person*/
+1226
+1227  /*Across Gender*/
+1228  proc sort data=brfss_e out=brfss_f;
+1229  by sex1;
+1230  run;
+
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_E.
+NOTE: The data set WORK.BRFSS_F has 395587 observations and 6 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.38 seconds
+      cpu time            0.89 seconds
+
+
+1231
+1232  ods graphics on;
+1233  proc freq data=brfss_f ;
+1234  by sex1;
+1235  tables _MENT14D2 *_BMI5CAT2 / chisq plots=all;
+1236  run;
+
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_F.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.87 seconds
+      cpu time            0.37 seconds
+
+
+1237  ods graphics off;
+1238
+1239  /*On average Women who are obese and overweight have more days with mental health issues when
+1239! compared to men.
+1240  Mental health (>14days)-Women:obese(17.55%) overweight(11.43%) vs Men:obese(11.26%)
+1240! overweight(8.00%)
+1241  Mental health (<14days)-Women:obese(25.54%) overweight(23.60%) vs Men:obese(17.91%)
+1241! overweight(16.89%)
+1242  Women(24.66%) have more Average(<14days) stressful days than men(20.64%).*/
+
+1243  /*Inorder to perform logistics regresion, we need binary outcome,
+1244  hence combining stress as one option.*/
+1245  data brfss_d1;
+1246  set brfss_d;
+1247  if _MENT14D = 1 then _MENT14D2 = "No stressful days";
+1248  else _MENT14D2= "Have stressful days";
+1249  run;
+
+NOTE: There were 396287 observations read from the data set WORK.BRFSS_D.
+NOTE: The data set WORK.BRFSS_D1 has 396287 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.18 seconds
+      cpu time            0.17 seconds
+
+
+1250
+1251  proc freq data=brfss_d1;
+1252  tables _MENT14D2;
+1253  run;
+
+NOTE: There were 396287 observations read from the data set WORK.BRFSS_D1.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.06 seconds
+
+
+1254
+1255  /*Remove missing/unknown gender*/
+1256  data brfss_e1;
+1257  set brfss_d1;
+1258  if SEX1 = 7 or SEX1= 9 then delete;
+1259  else output brfss_e1;
+1260  run;
+
+NOTE: There were 396287 observations read from the data set WORK.BRFSS_D1.
+NOTE: The data set WORK.BRFSS_E1 has 395587 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.07 seconds
+
+
+1261
+1262  proc freq data=brfss_e1;
+1263  tables sex1;
+1264  run;
+
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_E1.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.06 seconds
+
+
+1265
+1266  /*Bivariate analysis*/
+1267  proc freq data=brfss_e1 ;
+1268  tables  _MENT14D2 * _BMI5CAT2 ;
+1269  run;
+
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_E1.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.11 seconds
+      cpu time            0.09 seconds
+
+
+1270
+1271  proc freq data=brfss_e1 ;
+1272  tables  _MENT14D2 * sex1 ;
+1273  run;
+
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_E1.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.13 seconds
+      cpu time            0.12 seconds
+
+
+1274  /*Same analysis as first one:key1:*/
+1275
+1276  /*Logistic Regression*/
+1277  ods graphics on;
+1278  proc logistic data=brfss_e1 plots=all;
+1279  model _MENT14D2 =  _BMI5CAT sex1;
+1280  run;
+
+NOTE: PROC LOGISTIC is modeling the probability that _MENT14D2='Have stressful days'. One way to
+      change this to model the probability that _MENT14D2='No stressful days' is to specify the
+      response variable option EVENT='No stressful days'.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied.
+WARNING: Some plots have more than 5000 observations and are suppressed.  Specify the
+         PLOTS(MAXPOINTS=NONE) option in the PROC LOGISTIC statement to display the plots.
+WARNING: The effect plots have more than 5000 observations; the observations are suppressed.  Specify
+         the PLOTS(MAXPOINTS=NONE) option in the PROC LOGISTIC statement to display the observations.
+WARNING: Some plots have more than 5000 observations and are suppressed.  Specify the
+         PLOTS(MAXPOINTS=NONE) option in the PROC LOGISTIC statement to display the plots.
+NOTE: There were 395587 observations read from the data set WORK.BRFSS_E1.
+NOTE: PROCEDURE LOGISTIC used (Total process time):
+      real time           3.83 seconds
+      cpu time            3.14 seconds
+
+
+1281  ods graphics off;
+1282  /*y(_MENT14D2)=-1.6039+0.0639_BMI5CAT+0.4610SEX1
+1283
+1284  Odds Ratio: With 1 unit increase in BMI the odds of having mental health issues increases by
+1284! 1.066.
+1285  With 1 unit increase in BMI the mental health issues increases by 0.0639.
+1286
+1287  AUC is 0.56 which means that it not a good classifier.*/
+

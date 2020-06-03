@@ -1,0 +1,740 @@
+1342  /* Examine physical health in relation with mental health*/
+1343  data brfss_b2(keep= _BMI5CAT  _MENT14D _PHYS14D SEX1 );;
+1344  set brfss_b;
+1345  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B.
+NOTE: The data set WORK.BRFSS_B2 has 437436 observations and 4 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.13 seconds
+      cpu time            0.12 seconds
+
+
+1346
+1347  /*Removing missing values:Physical health*/
+1348  data brfss_c2;
+1349  set brfss_b2;
+1350  if _PHYS14D = 9 then delete;
+1351  else output brfss_c2;
+1352  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B2.
+NOTE: The data set WORK.BRFSS_C2 has 428472 observations and 4 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.10 seconds
+
+
+1353
+1354  data brfss_c2;
+1355  set brfss_c2;
+1356  if _PHYS14D = 1 then _PHYS14D2= "Phy Healthy";
+1357  else if  _PHYS14D = 2 then _PHYS14D2= "Phy Moderately Healthy";
+1358  else _PHYS14D2= "Phy Not Healthy";
+1359  run;
+
+NOTE: There were 428472 observations read from the data set WORK.BRFSS_C2.
+NOTE: The data set WORK.BRFSS_C2 has 428472 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.12 seconds
+      cpu time            0.12 seconds
+
+
+1360  proc freq data=brfss_c2;
+1361  tables _PHYS14D;
+1362  run;
+
+NOTE: Writing HTML Body file: sashtml2.htm
+NOTE: There were 428472 observations read from the data set WORK.BRFSS_C2.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           1.11 seconds
+      cpu time            0.73 seconds
+
+
+1363  /*Removing missing values for : Mental health*/
+1364  data brfss_d2;
+1365  set brfss_c2;
+1366  if _ment14D = 9 then delete;
+1367  else output brfss_d2;
+1368  run;
+
+NOTE: There were 428472 observations read from the data set WORK.BRFSS_C2.
+NOTE: The data set WORK.BRFSS_D2 has 423322 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.10 seconds
+
+
+1369
+1370  data brfss_d2;
+1371  set brfss_d2;
+1372  if _ment14D = 1 then _ment14D2= "Mentally Healthy";
+1373  else if  _ment14D = 2 then _ment14D2= "Mentally Moderately Healthy";
+1374  else _ment14D2 = "Mentally Not Healthy";
+1375  run;
+
+NOTE: There were 423322 observations read from the data set WORK.BRFSS_D2.
+NOTE: The data set WORK.BRFSS_D2 has 423322 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.11 seconds
+      cpu time            0.09 seconds
+
+
+1376
+1377  proc freq data=brfss_d2;
+1378  tables _ment14d;
+1379  run;
+
+NOTE: There were 423322 observations read from the data set WORK.BRFSS_D2.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.04 seconds
+
+
+1380
+1381  /*Check for relationship between Mental and Physical health*/
+1382  ods graphics on;
+1383  proc freq data=brfss_d2;
+1384  tables _ment14d2*_PHYS14D2 / chisq plots=all;
+1385  run;
+
+NOTE: There were 423322 observations read from the data set WORK.BRFSS_D2.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           1.25 seconds
+      cpu time            0.48 seconds
+
+
+1386  ods graphics off;
+1387
+1388  /* Chisquare suggestes that there physical health is statistically significant since p-value
+1388! <0.001.*/
+1389
+1390  /*People who had no physical health issues and had no mental health issues comprised of 77.09%
+1390! of all physically healthy respondatns
+1391  followed by 17.08% who had moderate mental issues .i.e. <14 days. and just %5.83% had mental
+1391! health issues for more than 14days.
+1392  Moderatelt physically healthy respondants had a distributon of 52.90%, 34.16% and 12.94% mental
+1392! health.
+1393  Physically not healthy repondants had the worst mental health with 34.85% and 19.93% mentally
+1393! moderately healthy.*/
+
+1394  /*Lets consider marital status as a factor for higher mental illness*/
+1395
+1396  data brfss_b4(keep= _BMI5CAT  _MENT14D _PHYS14D SEX1 _INCOMG MARITAL _EDUCAG);
+1397  set data.brfss_a;
+1398  run;
+
+NOTE: There were 437436 observations read from the data set DATA.BRFSS_A.
+NOTE: The data set WORK.BRFSS_B4 has 437436 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           2.00 seconds
+      cpu time            0.82 seconds
+
+
+1399
+1400  proc freq data=brfss_b4;
+1401  tables MARITAL;
+1402  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B4.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.16 seconds
+      cpu time            0.18 seconds
+
+
+1403
+1404  /*Removing missing/refused Marital status*/
+1405  data brfss_c4;
+1406  set brfss_b4;
+1407  if MARITAL = . or MARITAL = 9 then delete;
+1408  else output brfss_c4;
+1409  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B4.
+NOTE: The data set WORK.BRFSS_C4 has 434177 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.15 seconds
+      cpu time            0.15 seconds
+
+
+1410
+1411  data brfss_d4;
+1412  set brfss_c4;
+1413  if _MENT14D= 9 then delete;
+1414  else output brfss_d4;
+1415  run;
+
+NOTE: There were 434177 observations read from the data set WORK.BRFSS_C4.
+NOTE: The data set WORK.BRFSS_D4 has 427352 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.11 seconds
+      cpu time            0.12 seconds
+
+
+1416
+1417
+1418  data brfss_e4;
+1419  set brfss_d4;
+1420  length MaritalStatus $ 29. MentalHealthIssues $ 8.;
+1421  if MARITAL =1 then MaritalStatus = "Married";
+1422  else if MARITAL =2 then MaritalStatus = "Divorced";
+1423  else if MARITAL =3 then MaritalStatus = "Widowed";
+1424  else if MARITAL =4 then MaritalStatus = "Separated";
+1425  else if MARITAL =5 then MaritalStatus = "Never Married";
+1426  else MaritalStatus = "Member of an unmarried couple";
+1427  if _ment14d =1 then MentalHealthIssues = "0 days";
+1428  else if _ment14d =2 then MentalHealthIssues= "<14 days";
+1429  else MentalHealthIssues= ">14 days";
+1430  run;
+
+NOTE: There were 427352 observations read from the data set WORK.BRFSS_D4.
+NOTE: The data set WORK.BRFSS_E4 has 427352 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.16 seconds
+      cpu time            0.15 seconds
+
+
+1431
+1432  proc freq data=brfss_e4;
+1433  tables MaritalStatus;
+1434  run;
+
+NOTE: There were 427352 observations read from the data set WORK.BRFSS_E4.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.09 seconds
+
+
+1435
+1436
+1437  proc sort data=brfss_e4 out=brfss_f4;
+1438  by descending MaritalStatus;
+1439  run;
+
+NOTE: There were 427352 observations read from the data set WORK.BRFSS_E4.
+NOTE: The data set WORK.BRFSS_F4 has 427352 observations and 9 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.19 seconds
+      cpu time            0.54 seconds
+
+
+1440
+1441  /*Mental health issues vs Marital status*/
+1442  ods graphics on;
+1443  proc freq data=brfss_f4;
+1444  tables MentalHealthIssues * MaritalStatus / chisq plots=all;
+1445
+1446  run;
+
+NOTE: There were 427352 observations read from the data set WORK.BRFSS_F4.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.77 seconds
+      cpu time            0.40 seconds
+
+
+1447  ods graphics off;
+1448
+1449  /* Married and Widowed respondants have maximum % without any mental health issues 72.49% and
+1449! 73.31% respectively.
+1450  Separated respondants have the maximum days with mental health issues 23.37% and 24.42% i.e.
+1450! 47.80% followed by
+1451  Member of an unmarried couple(29.45%+16.26%) 45.71%, Never married with (28.79%+16.24%)45.03%
+1451! and Divorced with
+1452  (21.39%+16.47%) 37.89%.
+1453  Least for Widowed(26.68%)and Married respondants(27.51%).
+1454
+1455  Therefore we can say that married have less mental health issues as they have some sort of
+1455! stablibity.*/
+
+1456  /*Lets consider Income as factor for determining Mental Health*/
+1457
+1458  data brfss_b3(keep= _BMI5CAT  _MENT14D _PHYS14D SEX1 _INCOMG);
+1459  set data.brfss_a;
+1460  run;
+
+NOTE: There were 437436 observations read from the data set DATA.BRFSS_A.
+NOTE: The data set WORK.BRFSS_B3 has 437436 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           2.39 seconds
+      cpu time            1.21 seconds
+
+
+1461
+1462  proc freq data=brfss_b3;
+1463  tables _INCOMG;
+1464  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B3.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.17 seconds
+      cpu time            0.17 seconds
+
+
+1465
+1466  /*Instead of removing, imputing would be an ideal method because there are 76118, missing
+1466! values. */
+1467
+1468  data brfss_b4;
+1469  set brfss_b3;
+1470  if _INCOMG ne 9 then output brfss_b4;
+1471  else delete;
+1472  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B3.
+NOTE: The data set WORK.BRFSS_B4 has 361318 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.20 seconds
+      cpu time            0.18 seconds
+
+
+1473
+1474  proc freq data=brfss_b4;
+1475  tables _INCOMG;
+1476  run;
+
+NOTE: There were 361318 observations read from the data set WORK.BRFSS_B4.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.04 seconds
+
+
+1477
+1478  /*Renaming*/
+1479  data brfss_b4;
+1480  set brfss_b4;
+1481  if _INCOMG = 1 then IncomeRange = "< $15000";
+1482  else if _INCOMG = 2 then IncomeRange = "$15000- $25000";
+1483  else if _INCOMG = 3 then IncomeRange = "$25000- $35000";
+1484  else if _INCOMG = 4 then IncomeRange = "$35000- $50000";
+1485  else IncomeRange = "> $50000";
+1486  if _ment14d =1 then MentalHealth = "0 days with mental health issues";
+1487  else if _ment14d =2 then MentalHealth= "<14 days with mental health issues";
+1488  else MentalHealth= ">14 days with mental health issues";
+1489  run;
+
+NOTE: There were 361318 observations read from the data set WORK.BRFSS_B4.
+NOTE: The data set WORK.BRFSS_B4 has 361318 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.22 seconds
+      cpu time            0.21 seconds
+
+
+1490
+1491  /*Removing null values for mental health*/
+1492  data brfss_b5;
+1493  set brfss_b4;
+1494  if _ment14d = 9 then delete;
+1495  else output brfss_b5;
+1496  run;
+
+NOTE: There were 361318 observations read from the data set WORK.BRFSS_B4.
+NOTE: The data set WORK.BRFSS_B5 has 356921 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.19 seconds
+      cpu time            0.15 seconds
+
+
+1497
+1498  proc sort data=brfss_b5 out=brfss_b6;
+1499  by descending _INCOMG;
+1500  run;
+
+NOTE: There were 356921 observations read from the data set WORK.BRFSS_B5.
+NOTE: The data set WORK.BRFSS_B6 has 356921 observations and 7 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.29 seconds
+      cpu time            0.85 seconds
+
+
+1501
+1502  /*Relationship between Mental health and Income Range*/
+1503  ods graphics on;
+1504  proc freq data=brfss_b6;
+1505  tables MentalHealth * IncomeRange / chisq plots=all;
+1506  run;
+
+NOTE: There were 356921 observations read from the data set WORK.BRFSS_B6.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.41 seconds
+      cpu time            0.25 seconds
+
+
+1507  ods graphics off;
+1508
+1509  /*It is very clear from the graph that respondants with lesser salary have higher mental issues
+1509! on average.
+1510  Though Average mental health problems with less than 14days is between 21%-23% for all income
+1510! ranges.
+1511  Respondants with mental health issues >14 days, have a gradual drop as income increases.
+1512  i.e.  Income    Mental health issues >14 days
+1513      < $15000                    25.82%
+1514      $15000-$25000               17.74%
+1515      $25000-$35000               13.05%
+1516      $35000-$50000               10.68%
+1517      > $50000                     6.90%
+
+1518  /*Lets condsider Education as factor for Mental Health status*/
+1519
+1520  data brfss_b5(keep= _BMI5CAT  _MENT14D _PHYS14D SEX1 _INCOMG MARITAL _EDUCAG);
+1521  set data.brfss_a;
+1522  run;
+
+NOTE: There were 437436 observations read from the data set DATA.BRFSS_A.
+NOTE: The data set WORK.BRFSS_B5 has 437436 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           2.39 seconds
+      cpu time            1.40 seconds
+
+
+1523
+1524  proc freq data=brfss_b5;
+1525  tables _EDUCAG;
+1526  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B5.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.14 seconds
+
+
+1527
+1528  /*Remove missing values*/
+1529  data brfss_c5;
+1530  set brfss_b5;
+1531  if _EDUCAG = 9 then delete;
+1532  else output brfss_c5;
+1533  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_B5.
+NOTE: The data set WORK.BRFSS_C5 has 435815 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.12 seconds
+      cpu time            0.12 seconds
+
+
+1534
+1535  data brfss_d5;
+1536  set brfss_c5;
+1537  if _MENT14D = 9 then delete;
+1538  else output brfss_d5;
+1539  run;
+
+NOTE: There were 435815 observations read from the data set WORK.BRFSS_C5.
+NOTE: The data set WORK.BRFSS_D5 has 428957 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.09 seconds
+      cpu time            0.10 seconds
+
+
+1540
+1541  /*Renaming*/
+1542  data brfss_e5;
+1543  set brfss_d5;
+1544  length Education $ 30. MentalHealthIssues $ 8.;
+1545  if _EDUCAG =1 then Education = "Did not graduate High School";
+1546  else if _EDUCAG =2 then Education = "Graduated High School";
+1547  else if _EDUCAG =3 then Education = "Attended College or Technical School";
+1548  else  Education = "Graduated from College or Technical School";
+1549  if _ment14d =1 then MentalHealthIssues = "0 days";
+1550  else if _ment14d =2 then MentalHealthIssues= "<14 days";
+1551  else MentalHealthIssues= ">14 days";
+1552  run;
+
+NOTE: There were 428957 observations read from the data set WORK.BRFSS_D5.
+NOTE: The data set WORK.BRFSS_E5 has 428957 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.12 seconds
+
+
+1553
+1554  /*Relationship between Marital Status and Mental Health Issues*/
+1555  ods graphics on;
+1556  proc freq data=brfss_e5;
+1557  tables MentalHealthIssues*Education / chisq plots=all;
+1558  run;
+
+NOTE: There were 428957 observations read from the data set WORK.BRFSS_E5.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.64 seconds
+      cpu time            0.26 seconds
+
+
+1559  ods graphics off;
+1560
+1561  /*Repsondants who attended College and the once you did not graduate high school have a bit
+1561! higher proportion of
+1562  more days with mental health issues which is around 35%.
+1563  Compared to the ones who have Graduated High School and who Graduated from College or Technical
+1563! School have sighlty lesser
+1564  days with mental health issues which is around 32%.*/
+1565
+1566  /*Hence there is no conclusion evidence*/
+
+1567  /* Lets try and predict the likelyhood of a person having more mental health issues.*/
+1568
+1569  data brfss_l(keep= _MENT14D _BMI5CAT SEX1 _PHYS14D _INCOMG MARITAL _EDUCAG _AGE_G);
+1570  set data.brfss_a;
+1571  RUN;
+
+NOTE: There were 437436 observations read from the data set DATA.BRFSS_A.
+NOTE: The data set WORK.BRFSS_L has 437436 observations and 8 variables.
+NOTE: DATA statement used (Total process time):
+      real time           1.56 seconds
+      cpu time            0.51 seconds
+
+
+1572  /*****************Possible factors************/
+1573  /*BMI, SEX, PhysicalHealth, Income, MaritalStatus, Education, Age*/
+1574  proc contents data=brfss_l;
+1575  run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+
+
+1576
+1577
+1578
+1579  DATA brfss_l;
+1580  set brfss_l;
+1581  if _MENT14D = 1 then
+1582      Mental_Health = "No stressful days";
+1583
+1584  else
+1585      Mental_Health= "Have stressful days";
+1586
+1587  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_L.
+NOTE: The data set WORK.BRFSS_L has 437436 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.12 seconds
+
+
+1588
+1589  %macro freq(var,table);
+1590  proc freq data=&table;
+1591  tables &var;
+1592  run;
+1593  %mend freq;
+1594
+1595
+1596  %freq(Mental_Health,brfss_l)
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_L.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.08 seconds
+      cpu time            0.07 seconds
+
+
+1597
+1598  /* Remove missing values*/
+1599
+1600  data brfss_l1;
+1601  set brfss_l;
+1602  if _incomg = 9 then delete;
+1603  else output brfss_l1;
+1604  run;
+
+NOTE: There were 437436 observations read from the data set WORK.BRFSS_L.
+NOTE: The data set WORK.BRFSS_L1 has 361318 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.12 seconds
+
+
+1605
+1606  %freq(_incomg,brfss_l1)
+
+NOTE: There were 361318 observations read from the data set WORK.BRFSS_L1.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.08 seconds
+      cpu time            0.07 seconds
+
+
+1607
+1608  data brfss_l2;
+1609  set brfss_l1;
+1610  if _Ment14d = 9 then delete;
+1611  else  output brfss_l2;
+1612  run;
+
+NOTE: There were 361318 observations read from the data set WORK.BRFSS_L1.
+NOTE: The data set WORK.BRFSS_L2 has 356921 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.09 seconds
+
+
+1613
+1614  %freq(_Ment14d,brfss_l2)
+
+NOTE: There were 356921 observations read from the data set WORK.BRFSS_L2.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.06 seconds
+
+
+1615
+1616  data brfss_l3;
+1617  set brfss_l2;
+1618  if _phys14d = 9 then delete;
+1619  else  output brfss_l3;
+1620  run;
+
+NOTE: There were 356921 observations read from the data set WORK.BRFSS_L2.
+NOTE: The data set WORK.BRFSS_L3 has 352256 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.12 seconds
+      cpu time            0.09 seconds
+
+
+1621  %freq(_phys14d,brfss_l3)
+
+NOTE: There were 352256 observations read from the data set WORK.BRFSS_L3.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.04 seconds
+
+
+1622
+1623
+1624  data brfss_l4;
+1625  set brfss_l3;
+1626  if marital = 9 or marital= . then delete;
+1627  else  output brfss_l4;
+1628  run;
+
+NOTE: There were 352256 observations read from the data set WORK.BRFSS_L3.
+NOTE: The data set WORK.BRFSS_L4 has 351040 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.12 seconds
+      cpu time            0.12 seconds
+
+
+1629  %freq(marital,brfss_l4)
+
+NOTE: There were 351040 observations read from the data set WORK.BRFSS_L4.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.13 seconds
+      cpu time            0.07 seconds
+
+
+1630
+1631  data brfss_l5;
+1632  set brfss_l4;
+1633  if sex1 = 9 or sex1 =7 then delete;
+1634  else  output brfss_l5;
+1635  run;
+
+NOTE: There were 351040 observations read from the data set WORK.BRFSS_L4.
+NOTE: The data set WORK.BRFSS_L5 has 350480 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.17 seconds
+      cpu time            0.12 seconds
+
+
+1636
+1637  %freq(sex1,brfss_l5)
+
+NOTE: There were 350480 observations read from the data set WORK.BRFSS_L5.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.22 seconds
+      cpu time            0.10 seconds
+
+
+1638
+1639  data brfss_l6;
+1640  set brfss_l5;
+1641  if _educag = 9 then delete;
+1642  else  output brfss_l6;
+1643  run;
+
+NOTE: There were 350480 observations read from the data set WORK.BRFSS_L5.
+NOTE: The data set WORK.BRFSS_L6 has 350118 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.15 seconds
+      cpu time            0.14 seconds
+
+
+1644  %freq(_educag,brfss_l6)
+
+NOTE: There were 350118 observations read from the data set WORK.BRFSS_L6.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.13 seconds
+      cpu time            0.09 seconds
+
+
+1645
+1646  data brfss_l7;
+1647  set brfss_l6;
+1648  if _BMI5CAT = . then delete;
+1649  else  output brfss_l7;
+1650  run;
+
+NOTE: There were 350118 observations read from the data set WORK.BRFSS_L6.
+NOTE: The data set WORK.BRFSS_L7 has 333329 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.10 seconds
+
+
+1651  %freq(_BMI5CAT,brfss_l7)
+
+NOTE: There were 333329 observations read from the data set WORK.BRFSS_L7.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.04 seconds
+
+
+1652
+1653  /*Correlation*/
+1654  title "Correlation Matrix";
+1655  proc corr data=brfss_l7;
+1656  run;
+
+NOTE: PROCEDURE CORR used (Total process time):
+      real time           0.25 seconds
+      cpu time            0.21 seconds
+
+
+1657  title;
+1658  /* None of the variables are highly correlated hence we can proceed with Logistic Regression*/
+1659
+1660  /****************Logistic Regression***************/
+1661
+1662  ods graphics on;
+1663  proc logistic data=brfss_l7 plots=all;
+1664  model Mental_health(event='No stressful days') = _BMI5CAT SEX1 _PHYS14D _INCOMG MARITAL _EDUCAG
+1664! _AGE_G / selection=stepwise;
+1665  run;
+
+NOTE: PROC LOGISTIC is modeling the probability that Mental_Health='No stressful days'.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied in Step 0.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied in Step 1.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied in Step 2.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied in Step 3.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied in Step 4.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied in Step 5.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied in Step 6.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied in Step 7.
+WARNING: Some plots have more than 5000 observations and are suppressed.  Specify the
+         PLOTS(MAXPOINTS=NONE) option in the PROC LOGISTIC statement to display the plots.
+WARNING: The effect plots have more than 5000 observations; the observations are suppressed.  Specify
+         the PLOTS(MAXPOINTS=NONE) option in the PROC LOGISTIC statement to display the observations.
+WARNING: Some plots have more than 5000 observations and are suppressed.  Specify the
+         PLOTS(MAXPOINTS=NONE) option in the PROC LOGISTIC statement to display the plots.
+NOTE: There were 333329 observations read from the data set WORK.BRFSS_L7.
+NOTE: PROCEDURE LOGISTIC used (Total process time):
+      real time           34.48 seconds
+      cpu time            29.06 seconds
+
+
+1666  ods graphics off;
+1667
+1668  /*All 7 variables are statistically significant.*/
+1669  /*ROC
+
