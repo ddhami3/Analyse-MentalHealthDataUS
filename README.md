@@ -13,8 +13,11 @@ Part 2 elaborates on factors namely Physical Health, Education, Income, Marital 
 ## Software Used: SAS
 
 -Various DATA and PROC statements used along with Macros
+
 -Univariate Analysis
+
 -Bivariate/Multivariate Analysis
+
 -Logistic Regression Models
 
 ## Part1 :
